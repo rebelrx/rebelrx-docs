@@ -262,7 +262,7 @@ basestrap /mnt base base-devel openrc elogind-openrc \
   networkmanager networkmanager-openrc \
   zramen zramen-openrc \
   os-prober \
-  pipewire pipewire-openrc pipewire-alsa pipewire-pulse pipewire-pulse-openrc pipewire-jack wireplumber wireplumber-openrc \
+  pipewire pipewire-openrc pipewire-alsa pipewire-pulse pipewire-pulse-openrc pipewire-jack wireplumber wireplumber-openrc alsa-utils sof-firmware \
   nano vim neovim \
   git wget curl \
   reflector \
@@ -690,7 +690,7 @@ sudo pacman -S \
   bluez bluez-openrc bluez-utils \
   cups cups-openrc system-config-printer \
   ntp ntp-openrc \
-  pipewire pipewire-alsa pipewire-pulse pipewire-jack wireplumber \
+  pipewire-pulse pipewire-pulse-openrc pipewire-jack wireplumber wireplumber-openrc alsa-utils sof-firmware \
   pavucontrol \
   sof-firmware alsa-firmware \
   fwupd bolt upower \
