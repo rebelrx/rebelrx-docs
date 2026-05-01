@@ -673,10 +673,11 @@ Run this once after fresh install and at least once a week to update all package
 Backup
 
 ```bash
-sudo pacman -S timeshift cronie cronie-openrc
+sudo pacman -S timeshift snapper
 ```
 
 - **Timeshift** backup service
+- **Snapper** alternative backup service
 
 Core Services
 
@@ -685,6 +686,7 @@ sudo pacman -S \
   networkmanager networkmanager-openrc \
   elogind elogind-openrc \
   acpid acpid-openrc \
+  cronie cronie-openrc \
   bluez bluez-openrc bluez-utils \
   cups cups-openrc system-config-printer \
   ntp ntp-openrc \
@@ -701,6 +703,7 @@ sudo pacman -S \
 - **NetworkManager**: easiest desktop networking
 - **elogind**: session/power integration
 - **acpid / upower**: lid, battery, suspend behavior
+- **cronie** time-based job scheduler used to run specified programs or scripts at scheduled times
 - **bluez**: Bluetooth
 - **cups**: only if you print
 - **fwupd**: important on Framework for firmware updates
@@ -737,7 +740,7 @@ Dev / Coding:
 sudo pacman -S \
   base-devel \
   github-cli \
-  openssh \
+  openssh openssh-openrc \
   jq yq \
   python python-pip \
   nodejs npm \
