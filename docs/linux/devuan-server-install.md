@@ -77,21 +77,23 @@ Once at the Devuan GUI screen, choose the `Install` option:
     - Enter your time zone. Example: Eastern
 5. **Disk Partitioning**
     - If setting up encryption (optional), follow these instructions for partitioning disks: [devuan.org/os/documentation/install-guides/excalibur/full-disk-encryption.html](https://www.devuan.org/os/documentation/install-guides/excalibur/full-disk-encryption.html)
-    - If not setting up encryption (recommended without for simplicity), select `Manual`
-    - Follow the Partition Layout below based on preference (recommended Simple Partition Layout)
+    - If not setting up encryption (recommended for a simplified install), you can select `Guided - use entire disk` or `Manual`
+    - If you select `Manual`, Partition Layouts are provided below based on preference (Simple Partition Layout recommended)
     - After creating the partitions, write the changes to disks - select `<Yes>`
 6. **Package Manager Configuration**
     - Select a Devuan archive mirror. Preferred choice is `deb.devuan.org`
+    - If you need to use a HTTP proxy, you can enter the proxy info. Otherwise, just leave blank and select `<Continue>`
 7. **Popularity-Contest Configuration**
-    - Participating in the package usage survey is optional. Select `<Yes>` or `<No>` based on preference
+    - Participating in the package usage survey is optional. Select `<Yes>` or `<No>` based on preference (`<No>` recommended)
 8. **Software Selection**
-    1. Deselect everything then select only `SSH server` and `standard system utilities`. Do not select any desktop environment. This produces a minimal headless server install
+    1. Use the spacebar key to deselect everything then select only `SSH server` and `standard system utilities`. Do not select any desktop environment. This produces a minimal headless server install
 9. Init System Selection
     - Options for init are:
         - `sysvinit` (default, classic, well-documented)
         - `OpenRC` (modern, dependency-based, popular in Gentoo)
         - `runit` (minimalist, fast boot)
-    - Select `sysvinit` (default, safest and most compatible)
+    - For default init (most stable and compatible), select `sysvinit`
+    - If you prefer a more modern and dependency-based init system (that's closer to systemd in usage), choose `openrc`
 10. Boot Loader
     - Install GRUB to the EFI partition. When asked to install GRUB boot loader to primary drive, select `<Yes>`
     - Select `/dev/nvme0n1` as the device for the boot loader installation
@@ -105,9 +107,9 @@ Once at the Devuan GUI screen, choose the `Install` option:
 
 | #   | Mount | Size | Filesystem | Purpose |
 | --- | --- | --- | --- | --- |
-| 1   | /boot/efi | 1GB | FAT32 | Required for UEFI |
-| 2   | /   | 100–200GB | ext4 | OS + Docker + logs |
-| 3   | /home | Remaining | ext4 | Data + configs |
+| 1   | /boot/efi | 1GB | FAT32 | Required for UEFI booting |
+| 2   | /boot   | 2GB | ext4 | OS partition to simplify recovery|
+| 3   | / | Remaining | ext4 | Data storage  |
 
 **Design Rationale**
 
@@ -123,13 +125,13 @@ If you prefer an enterprise-level and isolated partition style, you can opt for:
 | #   | Mount Point | Size | Filesystem | Purpose |
 | --- | --- | --- | --- | --- |
 | 1   | `/boot/efi` | 512 MiB | FAT32 (EFI System Partition) | UEFI bootloader |
-| 2   | `/boot` | 1 GiB | ext4 | Kernel and initramfs images |
+| 2   | `/boot` | 2 GiB | ext4 | Kernel and initramfs images |
 | 3   | `/` | 50 GiB | ext4 | Root filesystem |
 | 4   | `/var` | 100 GiB | ext4 | Logs, databases, container layers, package cache |
 | 5   | `/tmp` | 10 GiB | ext4 (mounted noexec,nosuid,nodev) | Temporary files |
 | 6   | `swap` | 32 GiB | Linux swap | Swap space (roughly 1/3 of max RAM) |
 | 7   | `/home` | 50 GiB | ext4 | User home directories |
-| 8   | `/srv` | Remainder (~3,483 GiB) | ext4 or XFS | Server data, VMs, containers, datasets |
+| 8   | `/srv` | Remainder | ext4 or XFS | Server data, VMs, containers, datasets |
 
 ### Design Rationale
 
