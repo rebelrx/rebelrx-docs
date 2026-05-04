@@ -98,7 +98,7 @@ To minimize exposure to centralized control layers, this guide focuses on:
 - Familiar Debian ecosystem  
 - Ideal for servers and long-term deployments  
 
-👉 Full list of non-systemd based Linux distributions: <https://nosystemd.org/>
+👉 Full list of non-systemd based Linux distributions: <https://nosystemd.org/> and <https://systemdfree.com/>
 
 ---
 

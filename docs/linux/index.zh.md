@@ -103,7 +103,7 @@ Linux 通常被视为替代方案。
 * 熟悉的 Debian 生态
 * 适用于服务器和长期部署
 
-👉 非 systemd Linux 发行版完整列表：<https://nosystemd.org/>
+👉 非 systemd Linux 发行版完整列表：<https://nosystemd.org/> <https://systemdfree.com/>
 
 ---
 

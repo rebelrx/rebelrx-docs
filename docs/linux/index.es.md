@@ -103,7 +103,7 @@ Para minimizar la exposición a capas de control centralizadas, esta guía se en
 - Ecosistema familiar de Debian  
 - Ideal para servidores y despliegues a largo plazo  
 
-👉 Lista completa de distribuciones Linux sin systemd: <https://nosystemd.org/>
+👉 Lista completa de distribuciones Linux sin systemd: <https://nosystemd.org/> y <https://systemdfree.com/>
 
 ---
 

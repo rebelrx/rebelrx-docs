@@ -107,7 +107,7 @@ Linux часто позиционируется как альтернатива.
 
 ---
 
-👉 Полный список дистрибутивов без systemd: <https://nosystemd.org/>
+👉 Полный список дистрибутивов без systemd: <https://nosystemd.org/> <https://systemdfree.com/>
 
 ---
 
