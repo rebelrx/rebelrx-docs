@@ -2,7 +2,7 @@
 
 A practical guide to running a **clean, reproducible Docker homelab** on bare metal using Devuan and Docker Compose.
 
-This is the exact model used in RebelRx.
+Most homelab guides assume Debian, Ubuntu, or some other systemd distro. This one goes the other way: **Devuan**, Debian *without* systemd, for a leaner, init-simple base you fully control. The Compose stacks come from the [RebelRx homelab repo](https://github.com/rebelrx/rebelrx-homelab) and run the same on any Docker host; here we set them up the Devuan way.
 
 ---
 
@@ -30,7 +30,7 @@ But for most homelabs, it introduces unnecessary complexity.
 - **Reproducible** → everything defined in Compose  
 - **Portable** → move your entire stack with Git  
 
-> 💡 If you're not running enterprise multi-tenant workloads, you likely don’t need a hypervisor.
+> 💡 If you're not running enterprise multi-tenant workloads, you likely don't need a hypervisor.
 
 ---
 
@@ -57,16 +57,25 @@ sudo apt install -y ca-certificates curl gnupg git
 
 ## 🔑 Add Docker Repository
 
+Docker's `.deb` repository is keyed by **Debian** codename — but Devuan ships
+its own (`daedalus`, `excalibur`, …), which Docker's repo won't recognize. Map
+it to the Debian base your Devuan release is built on.
+
 ```bash
 sudo install -m 0755 -d /etc/apt/keyrings
 
 curl -fsSL https://download.docker.com/linux/debian/gpg | \
   sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
 
+# Devuan ships its own codename; Docker's Debian repo needs the Debian base:
+#   Devuan 5  "Daedalus"  → bookworm
+#   Devuan 6  "Excalibur" → trixie
+DEBIAN_CODENAME=trixie   # set to match your Devuan release's Debian base
+
 echo \
   "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] \
   https://download.docker.com/linux/debian \
-  $(. /etc/os-release && echo $VERSION_CODENAME) stable" | \
+  $DEBIAN_CODENAME stable" | \
   sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 ```
 
@@ -120,35 +129,59 @@ docker run hello-world
 
 ## 📁 Directory Structure
 
-This guide uses a **clean, predictable layout**:
+Keep **config and data in separate trees** — this is the single most important
+layout decision, and every stack in the repo follows it:
 
 ```bash
-~/docker/
-├── compose/        # Docker Compose stacks (YAML)
-└── apps/           # Persistent app data
-    ├── plex/
-    ├── nginx/
-    ├── nextcloud/
-    └── ...
+/opt/stacks/<stack>/     # Docker Compose stacks (compose.yaml, .env, README)
+/opt/data/<stack>/       # Persistent app data (never committed to Git)
+```
+
+Example:
+
+```bash
+/opt/stacks/
+├── npm/
+│   ├── compose.yaml
+│   ├── .env
+│   └── README.md
+├── plex/
+└── ...
+
+/opt/data/
+├── npm/
+├── plex/
+└── ...
 ```
 
 ### Why this matters
 
 - Separation of **config vs data**
-- Easier backups
-- Cleaner Git repos
-- Avoids Docker “sprawl”
+- Easier backups (snapshot `/opt/data`; the compose tree lives in Git)
+- Cleaner Git repos (no runtime data ever versioned)
+- Avoids Docker "sprawl"
+
+> 💡 `/opt/stacks` is also Dockge's default `DOCKGE_STACKS_DIR`, so the stack
+> manager picks everything up with no extra configuration.
 
 ---
 
-## 🚀 Clone RebelRx Homelab Template
+## 🚀 Clone the RebelRx Homelab Repo
 
 ```bash
 cd ~
-git clone https://github.com/rebelrx/rebelrx-homelab.git docker
+git clone https://github.com/rebelrx/rebelrx-homelab.git
 ```
 
-> This repo provides **real-world Compose templates** used in production.
+> This repo provides **real-world Compose templates** used in production, one
+> directory per stack, each with a filled-in `README.md`.
+
+To deploy a stack, copy it into `/opt/stacks/` and fill in its `.env`:
+
+```bash
+sudo mkdir -p /opt/stacks
+sudo cp -a ~/rebelrx-homelab/stacks/npm /opt/stacks/
+```
 
 ---
 
@@ -157,19 +190,21 @@ git clone https://github.com/rebelrx/rebelrx-homelab.git docker
 Inside the repo:
 
 ```bash
-docker/
-└── compose/
+rebelrx-homelab/
+└── stacks/
    ├── arr/
    ├── audiobooks/
    ├── authentik/
    └── ...
 ```
 
-Each stack typically includes:
+Each stack includes at minimum:
 
-- `docker-compose.yml`
+- `compose.yaml`
 - `.env.example`
-- README (usage notes)
+- `README.md` (services, env vars, ports, deployment, backup)
+
+Some stacks ship extra files (e.g. `paperless` has a `docker-compose.env.example`, `monitor` a `prometheus.yml.example`) — the stack's README calls these out.
 
 ---
 
@@ -201,19 +236,22 @@ TZ=America/New_York
 - Portable configs
 - Easy overrides
 
+Secrets (passwords, API keys) also live in `.env` — which is **gitignored**.
+Only `.env.example` templates with blank secrets are committed.
+
 ---
 
 ### 3. Volume Mapping
 
 ```yaml
 volumes:
-  - ~/docker/apps/plex:/config
+  - /opt/data/plex:/config
 ```
 
 This ensures:
 
 - Data persists across container restarts
-- Easy backups
+- Easy backups (it's all under `/opt/data`)
 - Full control over storage
 
 ---
@@ -222,23 +260,32 @@ This ensures:
 
 ```yaml
 ports:
-  - 127.0.0.1:8080:8080
+  - 8080:8080              # published on all interfaces — reachable on your LAN
+  # - 127.0.0.1:8080:8080  # loopback only — reverse proxy in front
 ```
 
-**Best practice:**
+**How the repo handles this:**
 
-- Bind to `127.0.0.1` for internal services
-- Use a reverse proxy for external access
+- Web UIs are published on **all interfaces by default**, so they work on your
+  LAN out of the box.
+- Prefix a mapping with `127.0.0.1:` to keep a service **loopback-only** and
+  reach it exclusively through the reverse proxy.
+- **Internal services** (databases, Redis/Valkey, brokers) publish **no host
+  port at all** — they're only reachable on the stack's internal network.
 
 ---
 
 ## 🌐 Reverse Proxy (Nginx Proxy Manager)
 
-Recommended approach:
+Recommended approach — the `npm` stack in the repo:
 
 - Run **Nginx Proxy Manager (NPM)**
 - Expose services via subdomains
 - Handle SSL automatically
+
+Services attach to a shared `proxy_net` network; NPM reaches each one by
+container name, so the reverse proxy works whether or not a host port is
+published.
 
 Example:
 
@@ -256,8 +303,10 @@ Benefits:
 
 ## ▶️ Running Your First Stack
 
+Start with the reverse proxy so everything else has something to sit behind:
+
 ```bash
-cd ~/docker/compose/proxy
+cd /opt/stacks/npm
 
 cp .env.example .env
 nano .env
@@ -309,8 +358,12 @@ docker system prune -a
 
 ### ❌ Permission Issues
 
+Compose files can be owned by your user; **data** directories are usually owned
+by the container's `PUID:PGID` (often `1000:1000`):
+
 ```bash
-sudo chown -R $USER:$USER ~/docker
+sudo chown -R $USER:$USER /opt/stacks/<stack>
+sudo chown -R 1000:1000 /opt/data/<stack>   # match the stack's PUID/PGID
 ```
 
 ---
@@ -333,7 +386,7 @@ docker compose pull
 
 ### ❌ Editing Running Containers
 
-Don’t.
+Don't.
 
 Edit the **Compose file**, then redeploy.
 
@@ -355,10 +408,10 @@ Just Docker + Compose + discipline.
 ## 🔗 Suggested Next Steps
 
 - Add more stacks from the RebelRx repo
-- Set up reverse proxy with the "proxy" stack (NPM)
-- Implement backups with the "backup" stack (Kopia)
-- Use a Docker Compose stack manager with the "dockge" stack (Dockge)
-- Add a file browser with the "filebrowser" stack (File Browser Quantum)
+- Set up the reverse proxy with the `npm` stack (Nginx Proxy Manager)
+- Implement backups with the `backup` stack (Kopia)
+- Use a Docker Compose stack manager with the `dockge` stack (Dockge)
+- Add a file browser with the `filebrowser` stack (Filebrowser Quantum)
 
 ---
 
