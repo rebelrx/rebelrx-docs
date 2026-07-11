@@ -1,108 +1,112 @@
+---
+description: >-
+  La privacidad no consiste en esconderse — consiste en poder. Qué recopilan realmente las plataformas basadas en vigilancia y por qué el "no tengo nada que ocultar" se equivoca de pleno.
+---
+
 <!--
 Source: privacy/why-privacy.md
-Last translated: 2026-04
+Last translated: 2026-07
 -->
 
-# 🔍 Por Qué la Privacidad Importa
+# 🔍 Por qué importa la privacidad
 
-La privacidad no se trata de “tener algo que ocultar”.  
-Se trata de **control, autonomía y reducción del riesgo a largo plazo**.
+La privacidad no va de "tener algo que ocultar".  
+Va de **control, autonomía y reducción del riesgo a largo plazo**.
 
 ---
 
-## 🧠 La Realidad Moderna
+## 🧠 La realidad moderna
 
 La mayoría de los servicios convencionales:
 
-- Rastrean el comportamiento  
-- Construyen perfiles detallados de usuario  
-- Usan tus datos para entrenar sistemas de IA sin que recibas nada a cambio  
-- Monetizan tus propios datos  
+- Rastrean el comportamiento
+- Construyen perfiles de usuario detallados
+- Usan tus datos para entrenar sistemas de IA sin que tú veas un céntimo
+- Monetizan tus propios datos
 
 Ejemplos:
 
-- Historial de búsqueda  
-- Datos de ubicación  
-- Contenido de correos electrónicos (al menos metadatos)  
-- Patrones de uso de aplicaciones  
+- Historial de búsquedas
+- Datos de ubicación
+- Contenido del correo (metadatos como mínimo)
+- Patrones de uso de las apps
 
 ---
 
-## 💰 El Modelo de Negocio
+## 💰 El modelo de negocio
 
-> 💡 Si no estás pagando por el producto, *tú eres* el producto.
+> 💡 Si no pagas por el producto, el producto *eres tú*.
 
-Las plataformas gratuitas operadas por Big Tech ganan dinero mediante:
+Las plataformas gratuitas de las grandes tecnológicas ganan dinero mediante:
 
-- Publicidad  
-- Agregación de datos  
-- Predicción de comportamiento  
-
----
-
-## ⚠️ Riesgos Reales
-
-### 1. Agregación de Datos
-
-Tus datos no están aislados. Se combinan entre múltiples servicios.
+- Publicidad
+- Agregación de datos
+- Predicción del comportamiento
 
 ---
 
-### 2. Pérdida de Control
+## ⚠️ Riesgos reales
+
+### 1. Agregación de datos
+
+Tus datos no están aislados. Se combinan entre servicios.
+
+---
+
+### 2. Pérdida de control
 
 Las cuentas pueden ser:
 
-- Suspendidas  
-- Bloqueadas  
-- Eliminadas  
+- Suspendidas
+- Bloqueadas
+- Eliminadas
 
-¿No lo crees? Aquí tienes un ejemplo real:  
-[TD Bank congela cuentas que recibieron dinero para protestas en Canadá](https://www.reuters.com/world/americas/td-bank-freezes-two-accounts-that-received-funds-support-canada-protests-2022-02-12/)
-
----
-
-### 3. Exposición a Largo Plazo
-
-Los datos recopilados hoy pueden ser utilizados años después.
+¿No te lo crees? Aquí tienes un ejemplo de la vida real: [TD Bank congela cuentas que recibieron dinero para las protestas de Canadá](https://www.reuters.com/world/americas/td-bank-freezes-two-accounts-that-received-funds-support-canada-protests-2022-02-12/)
 
 ---
 
-### 4. Superficie de Ataque
+### 3. Exposición a largo plazo
 
-Más datos centralizados = objetivo más grande.
+Los datos recopilados hoy pueden usarse años después.
 
 ---
 
-## 🧘 Qué Significa *Realmente* la Privacidad
+### 4. Superficie de seguridad
 
-Privacidad ≠ anonimato.
+Más datos centralizados = un objetivo más grande.
+
+---
+
+## 🧘 Qué significa *realmente* la privacidad
+
+Privacidad primero ≠ anonimato.
 
 Significa:
 
-- Tú eliges dónde viven tus datos  
-- Tú controlas el acceso  
-- Minimizar el seguimiento innecesario  
+- Tú eliges dónde viven tus datos
+- Tú controlas el acceso
+- Tú minimizas el rastreo innecesario
 
 ---
 
-## 🧭 Un Mejor Modelo Mental
+## 🧭 Un modelo mental mejor
 
-Piensa en términos de:
+Piensa en estos términos:
 
 | Objetivo | Resultado |
-|----------|-----------|
-| Reducir el seguimiento | Menos intermediarios de datos |
+|------|--------|
+| Reducir el rastreo | Menos brokers de datos |
 | Ser dueño de tus datos | Autoalojamiento o proveedores de confianza |
-| Minimizar dependencia | Mayor facilidad para cambiar servicios |
+| Minimizar el encierro | Más fácil cambiar de servicios |
 
 ---
 
-## 🚀 Conclusión
+## 🚀 En resumen
 
-Es casi imposible en el panóptico actual ser completamente privado a menos que abandones toda tu tecnología y te vayas a vivir al bosque. Pero no necesitas privacidad perfecta.
+En el panóptico actual es casi imposible ser completamente privado, a menos que tires todos tus aparatos y huyas al bosque. Pero no necesitas una privacidad perfecta.
 
 Necesitas:
 
-- Menos exposición  
-- Más control  
-- Un sistema que funcione para tu vida  
+- Menos exposición
+- Más control
+- Un sistema que funcione para tu vida

@@ -1,39 +1,44 @@
+---
+description: >-
+  Un plan realista y por fases para dejar las plataformas de las Big Tech — pasos ordenados, sin cortes en frío y sin migraciones abandonadas.
+---
+
 <!--
 Source: privacy/migration.md
-Last translated: 2026-04
+Last translated: 2026-07
 -->
 
-# 🏗️ Guía de Migración
+# 🏗️ Guía de migración
 
-Cómo alejarte de Big Tech **sin romper tu flujo de trabajo**.
-
----
-
-## ⚠️ Regla de Oro
-
-> NO migres todo de una vez.
-
-Esta es la razón #1 por la que la gente falla.
+Cómo alejarte de las Big Tech **sin romper tu forma de trabajar**.
 
 ---
 
-## 🧭 Visión General de la Estrategia de Migración
+## ⚠️ Regla de oro
+
+> NO migres todo a la vez.
+
+Es la razón n.º 1 por la que la gente fracasa.
+
+---
+
+## 🧭 Visión general de la estrategia de migración
 
 Seguirás un enfoque por fases:
 
 1. Configuración en paralelo  
 2. Migración gradual  
 3. Uso dual  
-4. Transición completa  
+4. Cambio definitivo  
 5. Desmantelamiento  
 
 ---
 
-## 🪜 Fase 1: Configuración en Paralelo
+## 🪜 Fase 1: configuración en paralelo
 
-Configura tus nuevas herramientas **sin eliminar nada**.
+Configura tus nuevas herramientas **sin borrar nada**.
 
-### Apps Principales para Instalar Primero
+### Apps esenciales para instalar primero
 
 - Navegador → **Brave**
 - Gestor de contraseñas → **Bitwarden / Proton Pass**
@@ -42,249 +47,249 @@ Configura tus nuevas herramientas **sin eliminar nada**.
 
 ---
 
-### Opcional (Infraestructura Temprana)
+### Opcional (infraestructura temprana)
 
 Si vas a autoalojar:
 
-- **Nextcloud (o Sync.com si es alojado)**
+- **Nextcloud (o Sync.com si prefieres alojado)**
 - **Immich (fotos)**
 - **AdGuard Home / Pi-hole**
 - **Tailscale**
 
-> 💡 No sobreconstruyas al inicio—haz que las cosas funcionen primero.
+> 💡 No construyas de más al principio — primero haz que las cosas funcionen.
 
 ---
 
-## 🔄 Fase 2: Migración Gradual
+## 🔄 Fase 2: migración gradual
 
-Mueve una categoría a la vez.
+Mueve una categoría cada vez.
 
 ---
 
 ### 🌐 Navegador
 
-- Instala Brave  
-- Añade extensiones (mínimas):  
-  - uBlock Origin (opcional—Brave ya bloquea anuncios)  
-- Importa marcadores desde Chrome  
+- Instala Brave
+- Añade extensiones (mínimas):
+  - uBlock Origin (opcional — Brave ya bloquea anuncios)
+- Importa los marcadores desde Chrome
 
 ---
 
 ### 🔐 Contraseñas
 
-- Exporta desde Chrome  
-- Importa en:  
-  - Bitwarden **o**  
-  - Proton Pass  
-- Activa 2FA  
+- Exporta desde Chrome
+- Importa en:
+  - Bitwarden **o**
+  - Proton Pass
+- Activa el 2FA
 
-> ⚠️ Haz esto temprano—todo depende de ello  
+> ⚠️ Haz esto pronto — todo lo demás depende de ello
 
 ---
 
 ### 📧 Correo
 
-- Crea cuenta en Proton Mail o Tuta  
-- Configura:  
-  - Reenvío desde Gmail → nueva bandeja  
-  - Empieza a usar el nuevo correo para inicios de sesión  
+- Crea una cuenta de Proton Mail o Tuta
+- Configura:
+  - Reenvío de Gmail → nueva bandeja de entrada
+  - Empieza a usar el nuevo correo para los inicios de sesión
 
-> 💡 Opcional: configura un dominio personalizado  
+> 💡 Opcional: configura un dominio propio
 
 ---
 
 ### ☁️ Archivos
 
-**Opción A (Autoalojado):**
+**Opción A (autoalojado):**
 
-- Subir datos → Nextcloud  
+- Sube los datos → Nextcloud
 
-**Opción B (Alojado):**
+**Opción B (alojado):**
 
-- Subir datos → Sync.com  
+- Sube los datos → Sync.com
 
-Empieza con:
+Empieza por:
 
-- Documentos  
-- Archivos personales  
-- Datos no críticos  
+- Documentos
+- Archivos personales
+- Datos no críticos
 
 ---
 
 ### 📸 Fotos
 
-- Exporta desde Google Photos  
-- Sube a Immich  
+- Exporta desde Google Photos
+- Sube a Immich
 
-> ⚠️ Esto puede tomar tiempo—hazlo por lotes  
+> ⚠️ Esto puede llevar tiempo — hazlo por lotes
 
 ---
 
 ### 📝 Notas
 
-- Exporta Google Keep / Apple Notes  
-- Importa en Joplin  
+- Exporta Google Keep / Apple Notes
+- Importa en Joplin
 
 ---
 
-### 📆 Calendario y Contactos
+### 📆 Calendario y contactos
 
-- Exporta datos de Google  
-- Importa en:  
+- Exporta los datos de Google
+- Importa en:
   - Nextcloud  
-  - o Baikal / Radicale  
+  - o Baikal / Radicale
 
 ---
 
 ### 🌍 Red
 
-- Despliega AdGuard Home o Pi-hole  
-- Actualiza DNS en:  
-  - Router (opcional)  
-  - Dispositivos  
+- Despliega AdGuard Home o Pi-hole
+- Actualiza el DNS en:
+  - El router (opcional)
+  - Los dispositivos
 
 ---
 
 ### 🔒 VPN / Acceso
 
-- Instala Mullvad (VPN de privacidad)  
-- Configura Tailscale (acceso remoto a tu homelab)  
+- Instala Mullvad (VPN de privacidad)
+- Configura Tailscale (acceso remoto al homelab)
 
 ---
 
 ### 📚 Documentos
 
-- Escanea/importa en Paperless-ngx  
-- Reemplaza flujos PDF:  
-  - Sumatra PDF  
-  - BentoPDF  
+- Escanea/importa en Paperless-ngx
+- Sustituye los flujos de trabajo de PDF:
+  - Sumatra PDF
+  - BentoPDF
 
 ---
 
 ### 🎥 Medios
 
-- Configura Jellyfin  
-- (Opcional avanzado):  
-  - Despliega stack Arr (Sonarr, Radarr, Prowlarr)  
+- Configura Jellyfin
+- (Avanzado opcional):
+  - Despliega el stack Arr (Sonarr, Radarr, Prowlarr)
 
 ---
 
-### 📚 Libros y Audio
+### 📚 Libros y audio
 
-- Importa ebooks → Calibre-Web / Kavita  
-- Importa audiolibros/podcasts → Audiobookshelf  
+- Importa ebooks → Calibre-Web / Kavita
+- Importa audiolibros/pódcast → Audiobookshelf
 
 ---
 
 ### 💰 Finanzas
 
-- Configura Actual Budget  
-- Importa/exporta datos financieros (si aplica)  
+- Configura Actual Budget
+- Importa/exporta los datos financieros (si aplica)
 
 ---
 
 ### 🧰 Desarrollo
 
-- Reemplaza flujos de GitHub con Forgejo (opcional)  
-- Cambia a VSCodium  
+- Sustituye los flujos de GitHub por Forgejo (opcional)
+- Cámbiate a VSCodium
 
 ---
 
-## 🔁 Fase 3: Uso Dual
+## 🔁 Fase 3: uso dual
 
 Ejecuta ambos sistemas simultáneamente.
 
 Valida:
 
-- Fiabilidad de sincronización  
-- Acceso móvil  
-- Copias de seguridad  
-- Rendimiento  
+- La fiabilidad de la sincronización
+- El acceso desde el móvil
+- Los respaldos
+- El rendimiento
 
 ---
 
-## 🔌 Fase 4: Transición Completa
+## 🔌 Fase 4: cambio definitivo
 
-Empieza a cambiar completamente:
+Empieza a cambiar del todo:
 
-- Actualiza correos de inicio de sesión en cuentas  
-- Mueve flujos diarios:  
-  - Notas → Joplin  
-  - Archivos → Nextcloud / Sync.com  
-  - Fotos → Immich  
-- Reduce dependencia de Google/Apple  
-
----
-
-## 🧹 Fase 5: Desmantelamiento
-
-Cuando estés seguro:
-
-- Exporta copias finales de servicios antiguos  
-- Desactiva cuentas no utilizadas  
-- Elimina apps que ya no uses  
-
-> ⚠️ Mantén copias de seguridad antes de eliminar cualquier cosa  
+- Actualiza los correos de inicio de sesión en todas las cuentas
+- Mueve los flujos de trabajo diarios:
+  - Notas → Joplin
+  - Archivos → Nextcloud / Sync.com
+  - Fotos → Immich
+- Reduce la dependencia de Google/Apple
 
 ---
 
-## ⚠️ Errores Comunes
+## 🧹 Fase 5: desmantelamiento
+
+Cuando tengas confianza:
+
+- Exporta los respaldos finales de los servicios antiguos
+- Desactiva las cuentas sin uso
+- Elimina las apps que ya no uses
+
+> ⚠️ Conserva respaldos antes de borrar nada
+
+---
+
+## ⚠️ Errores comunes
 
 - Migrar demasiado rápido  
-- Romper flujos familiares/compartidos  
+- Romper los flujos de trabajo familiares/compartidos  
 - No tener estrategia de respaldo  
 - Sobreingeniería temprana  
-- Perseguir “privacidad perfecta” en lugar de sistemas utilizables  
+- Perseguir la "privacidad perfecta" en lugar de sistemas usables  
 
 ---
 
-## 🔐 Mejores Prácticas de Seguridad
+## 🔐 Buenas prácticas de seguridad
 
-- Usa un gestor de contraseñas (Bitwarden / Proton Pass)  
-- Activa 2FA en todas partes  
-- Mantén sistemas actualizados  
-- Mantén **copias de seguridad externas (offsite)**  
-- Prueba restauraciones (no solo backups)  
-
----
-
-## 🧠 Consejos Pro
-
-### 1. Prioriza las Victorias de Alto Impacto
-
-Empieza con:
-
-- Navegador  
-- Gestor de contraseñas  
-- Correo  
+- Usa un gestor de contraseñas (Bitwarden / Proton Pass)
+- Activa el 2FA en todas partes
+- Mantén los sistemas actualizados
+- Mantén **respaldos fuera de casa**
+- Prueba las restauraciones (no solo los respaldos)
 
 ---
 
-### 2. Separa Alojado vs Autoalojado
+## 🧠 Consejos pro
 
-| Tipo | Cuándo Usar |
-|------|-------------|
+### 1. Prioriza las victorias de alto impacto
+
+Empieza por:
+
+- El navegador
+- El gestor de contraseñas
+- El correo
+
+---
+
+### 2. Separa alojado vs autoalojado
+
+| Tipo | Cuándo usarlo |
+|------|------------|
 | Alojado (Proton, Sync.com) | Configuración más simple y rápida |
 | Autoalojado (Nextcloud, Immich) | Máximo control |
 
 ---
 
-### 3. Construye por Capas
+### 3. Construye por capas
 
-- Capa 1 → Apps (Brave, Signal, Bitwarden)  
-- Capa 2 → Servicios (Correo, Almacenamiento)  
-- Capa 3 → Infraestructura (Nextcloud, DNS, VPN)  
+- Capa 1 → Apps (Brave, Signal, Bitwarden)
+- Capa 2 → Servicios (correo, almacenamiento)
+- Capa 3 → Infraestructura (Nextcloud, DNS, VPN)
 
 ---
 
-## 🚀 Reflexión Final
+## 🚀 Reflexión final
 
 > La migración es un proceso, no un evento.
 
-No necesitas reemplazar todo de la noche a la mañana.
+No necesitas reemplazarlo todo de la noche a la mañana.
 
-Enfócate en:
+Céntrate en:
 
-- Progreso  
-- Estabilidad  
-- Control  
+- El progreso
+- La estabilidad
+- El control

@@ -1,199 +1,216 @@
+---
+description: >-
+  Приватные замены с высокой отдачей для приложений и сервисов Big Tech — по категориям, с уровнями от новичка до продвинутого.
+---
+
 <!--
 Source: privacy/app-recommendations.md
-Last translated: 2026-04
+Last translated: 2026-07
 -->
 
-# 🔁 Рекомендации по приложениям с приоритетом приватности
+# 🔁 Рекомендации приватных приложений
 
-Высокоэффективные замены распространённых сервисов Big Tech.
+Замены с высокой отдачей для типичных сервисов Big Tech.
 
 ---
 
 ## 🌐 Браузер и поиск
 
-| Заменить | На | Почему |
-|---------|----|--------|
-| Chrome | [Brave](https://brave.com/) | Встроенная блокировка рекламы и трекеров, на базе Chromium |
-| Google Search | [DuckDuckGo](https://duckduckgo.com/) / [Startpage](https://www.startpage.com/) | Меньше отслеживания |
+| Замените | На | Почему |
+|--------|------|-----|
+| Chrome | [Brave](https://brave.com/) | Встроенная блокировка рекламы/трекеров, на базе Chromium |
+| Google Search | [DuckDuckGo](https://duckduckgo.com/) / [Startpage](https://www.startpage.com/) | Меньше слежки |
 
-> 💡 Продвинутый уровень: разверните [SearxNG](https://docs.searxng.org/) для полностью приватного поискового движка
+> 💡 Продвинутым: разверните у себя [SearxNG](https://docs.searxng.org/) — полностью приватный поисковик
 
 ---
 
 ## 📧 Электронная почта
 
-| Заменить | На | Почему |
-|---------|----|--------|
-| Gmail | [Proton Mail](https://proton.me/mail) / [Tuta](https://tuta.com/) | Сквозное шифрование, ориентированность на приватность |
+| Замените | На | Почему |
+|--------|------|-----|
+| Gmail | [Proton Mail](https://proton.me/mail) / [Tuta](https://tuta.com/) | Сквозное шифрование, приоритет приватности |
 
-> 💡 Совет: используйте **собственный домен** для долгосрочной гибкости
+> 💡 Совет: используйте **собственный домен** ради долгосрочной гибкости
 
 ---
 
 ## ☁️ Облачное хранилище
 
-| Заменить | На | Почему |
-|---------|----|--------|
-| Google Drive | [Nextcloud](https://nextcloud.com/) | Полный контроль, возможность self-hosting |
-| Google Drive / Dropbox | [Sync.com](https://www.sync.com/) | Зашифрованное облачное хранилище (хостируемый вариант) |
-| iCloud Drive | [Nextcloud](https://nextcloud.com/) / [Syncthing](https://syncthing.net/) | Децентрализованная синхронизация |
+| Замените | На | Почему |
+|--------|------|-----|
+| Google Drive | [Nextcloud](https://nextcloud.com/) | Полный контроль, можно разместить у себя |
+| Google Drive / Dropbox | [Sync.com](https://www.sync.com/) | Шифрованное облачное хранилище (облачный вариант) |
+| iCloud Drive | [Nextcloud](https://nextcloud.com/) / [Syncthing](https://syncthing.net/) | Варианты децентрализованной синхронизации |
 
 ---
 
 ## 📝 Заметки и документы
 
-| Заменить | На | Почему |
-|---------|----|--------|
-| Google Keep | [Joplin](https://joplinapp.org/) | На базе Markdown, open-source |
-| Apple Notes | [Joplin](https://joplinapp.org/) / [Standard Notes](https://standardnotes.com/) | Кроссплатформенность |
-| VS Code | [VSCodium](https://vscodium.com/) | Open-source, без телеметрии |
+| Замените | На | Почему |
+|--------|------|-----|
+| Google Keep | [Joplin](https://joplinapp.org/) | На основе Markdown, открытый |
+| Apple Notes | [Joplin](https://joplinapp.org/) / [Standard Notes](https://standardnotes.com/) | Кроссплатформенные |
+| VS Code | [VSCodium](https://vscodium.com/) | Открытый код, без телеметрии |
 
 ---
 
 ## 📆 Календарь и контакты
 
-| Заменить | На | Почему |
-|---------|----|--------|
+| Замените | На | Почему |
+|--------|------|-----|
 | Google Calendar | [Nextcloud](https://nextcloud.com/) / [Baikal](https://sabre.io/baikal/) | Поддержка CalDAV |
 | Google Contacts | [Nextcloud](https://nextcloud.com/) / [Radicale](https://radicale.org/) | Полный контроль |
 
 ---
 
-## 🏢 Офисные инструменты
+## 🏢 Офисный пакет
 
-| Заменить | На | Почему |
-|---------|----|--------|
-| Microsoft Office 365 | [ONLYOFFICE](https://www.onlyoffice.com/) / [LibreOffice](https://www.libreoffice.org/) | Open-source |
-| Outlook | [Thunderbird](https://www.thunderbird.net/) | Open-source |
+| Замените | На | Почему |
+|--------|------|-----|
+| Microsoft Office 365 | [ONLYOFFICE](https://www.onlyoffice.com/) / [LibreOffice](https://www.libreoffice.org/) | Открытый код |
+| Outlook | [Thunderbird](https://www.thunderbird.net/) | Открытый код |
 
 ---
 
 ## 💬 Мессенджеры
 
-| Заменить | На | Почему |
-|---------|----|--------|
+| Замените | На | Почему |
+|--------|------|-----|
 | SMS / Messenger | [Signal](https://signal.org/) | Сквозное шифрование |
 
-> 💡 Продвинутый уровень:
+> 💡 Продвинутым:
 >
-> - [SimpleX](https://simplex.chat/)  
-> - [Element (Matrix)](https://element.io/)  
+> - [SimpleX](https://simplex.chat/)
+> - [Element (Matrix)](https://element.io/)
 
 ---
 
-## 📸 Фото
+## 📸 Фотографии
 
-| Заменить | На | Почему |
-|---------|----|--------|
-| Google Photos | [Immich](https://immich.app/) | Self-hosted, современное решение |
-| iCloud Photos | [Immich](https://immich.app/) / [PhotoPrism](https://www.photoprism.app/) | Полный контроль |
+| Замените | На | Почему |
+|--------|------|-----|
+| Google Photos | [Immich](https://immich.app/) | Self-hosted, современный |
+| iCloud Photos | [Immich](https://immich.app/) / [PhotoPrism](https://www.photoprism.app/) | Полное владение |
 
 ---
 
 ## 🔐 Менеджер паролей
 
-| Заменить | На | Почему |
-|---------|----|--------|
-| Chrome Passwords | [Bitwarden](https://bitwarden.com/) / [Vaultwarden](https://github.com/dani-garcia/vaultwarden) | Безопасно, кроссплатформенно |
-| Chrome Passwords | [Proton Pass](https://proton.me/pass) | Приватный вариант без self-hosting |
+| Замените | На | Почему |
+|--------|------|-----|
+| Пароли Chrome | [Bitwarden](https://bitwarden.com/) / [Vaultwarden](https://github.com/dani-garcia/vaultwarden) | Безопасный, кроссплатформенный |
+| Пароли Chrome | [Proton Pass](https://proton.me/pass) | Приватность прежде всего, вариант без self-hosting |
+
+---
+
+## 🔑 Двухфакторная аутентификация
+
+| Замените | На | Почему |
+|--------|------|-----|
+| Google Authenticator / Authy | [Aegis](https://getaegis.app/) (Android) / [Ente Auth](https://ente.io/auth/) (кроссплатформенный) | Открытый код, шифрованные экспортируемые резервные копии, без привязки к облаку |
+
+> 💡 Google Authenticator синхронизирует ваши 2FA-сиды с учётной записью Google; Authy — закрытый код и брешь 2024 года. Ваш второй фактор заслуживает лучшего. Подробности — в [руководстве по мобильной приватности](mobile.md).
 
 ---
 
 ## 🌍 DNS и блокировка рекламы
 
-| Заменить | На | Почему |
-|---------|----|--------|
-| DNS провайдера | [AdGuard Home](https://adguard.com/en/adguard-home/overview.html) / [Pi-hole](https://pi-hole.net/) | Блокировка рекламы и трекеров на уровне сети |
+| Замените | На | Почему |
+|--------|------|-----|
+| DNS провайдера | [AdGuard Home](https://adguard.com/en/adguard-home/overview.html) / [Pi-hole](https://pi-hole.net/) | Блокировка рекламы и слежки на уровне всей сети |
 
 ---
 
 ## 🔒 VPN и безопасный доступ
 
-| Заменить | На | Почему |
-|---------|----|--------|
-| Без VPN / бесплатные VPN | [Mullvad](https://mullvad.net/) | Ориентирован на приватность, без аккаунта |
-| Традиционный VPN | [Tailscale](https://tailscale.com/) / [Headscale](https://github.com/juanfont/headscale) | Приватная mesh-сеть, безопасный удалённый доступ |
+| Замените | На | Почему |
+|--------|------|-----|
+| Без VPN / бесплатные VPN | [Mullvad](https://mullvad.net/) | Приватность прежде всего, учётная запись не нужна |
+| Традиционный VPN | [Tailscale](https://tailscale.com/) / [Headscale](https://github.com/juanfont/headscale) | Приватная mesh-VPN, безопасный удалённый доступ |
 
 ---
 
 ## 🎥 Медиа и стриминг
 
-| Заменить | На | Почему |
-|---------|----|--------|
-| Netflix / HBO / стриминг | [Jellyfin](https://jellyfin.org/) | Полностью self-hosted стриминг |
-| Подписки на стриминг | Arr-стек ([Sonarr](https://sonarr.tv/), [Radarr](https://radarr.video/), [Prowlarr](https://prowlarr.com/)) | Автоматизация управления медиаконтентом |
+| Замените | На | Почему |
+|--------|------|-----|
+| Netflix / HBO / стриминги | [Jellyfin](https://jellyfin.org/) | Полностью self-hosted медиастриминг |
+| Стриминговые подписки | Стек Arr ([Sonarr](https://sonarr.tv/), [Radarr](https://radarr.video/), [Prowlarr](https://prowlarr.com/)) | Автоматизированное управление медиатекой |
 
 ---
 
 ## 📚 Книги, PDF и знания
 
-| Заменить | На | Почему |
-|---------|----|--------|
-| Экосистема Kindle | [Calibre-Web](https://github.com/janeczku/calibre-web) / [Kavita](https://www.kavitareader.com/) | Self-hosted библиотеки |
-| Audible / подкасты | [Audiobookshelf](https://www.audiobookshelf.org/) | Self-hosted аудиокниги и подкасты |
-| Adobe Reader | [Sumatra PDF](https://www.sumatrapdfreader.org/free-pdf-reader) | Лёгкий и приватный |
-| Adobe Acrobat / CC | [BentoPDF](https://github.com/bentoml/BentoPDF) | Open/self-hosted PDF инструменты |
-| Бумажные документы | [Paperless-ngx](https://docs.paperless-ngx.com/) | Система управления документами |
+| Замените | На | Почему |
+|--------|------|-----|
+| Экосистема Kindle | [Calibre-Web](https://github.com/janeczku/calibre-web) / [Kavita](https://www.kavitareader.com/) | Self-hosted библиотеки электронных книг |
+| Audible / приложения подкастов | [Audiobookshelf](https://www.audiobookshelf.org/) | Self-hosted аудиокниги + подкасты |
+| Adobe Reader | [Sumatra PDF](https://www.sumatrapdfreader.org/free-pdf-reader) | Лёгкий, дружественный к приватности |
+| Adobe Acrobat / CC | [BentoPDF](https://github.com/alam00000/bentopdf) | Открытые/self-hosted инструменты для PDF |
+| Бумажные завалы | [Paperless-ngx](https://docs.paperless-ngx.com/) | Система управления документами |
 
 ---
 
 ## 💰 Личные финансы
 
-| Заменить | На | Почему |
-|---------|----|--------|
-| Mint / YNAB | [Actual Budget](https://actualbudget.org/) | Self-hosted, приватный бюджетинг |
+| Замените | На | Почему |
+|--------|------|-----|
+| Mint / YNAB | [Actual Budget](https://actualbudget.org/) | Self-hosted, приватное ведение бюджета |
 
 ---
 
 ## 🧰 Разработка и Git
 
-| Заменить | На | Почему |
-|---------|----|--------|
+| Замените | На | Почему |
+|--------|------|-----|
 | GitHub | [Forgejo](https://forgejo.org/) | Self-hosted Git, полный контроль |
 
 ---
 
 ## 🌐 Сетевые инструменты
 
-| Заменить | На | Почему |
-|---------|----|--------|
-| Speedtest.net | [LibreSpeed](https://librespeed.org/) / [Speedtest Tracker](https://github.com/alexjustesen/speedtest-tracker) | Self-hosted тест скорости без отслеживания |
+| Замените | На | Почему |
+|--------|------|-----|
+| Speedtest.net | [LibreSpeed](https://librespeed.org/) / [Speedtest Tracker](https://github.com/alexjustesen/speedtest-tracker) | Self-hosted замер скорости, без слежки |
 
 ---
 
-## 🧱 Уровни приватности
+## 🧱 Уровни приватного стека
 
-### 🟢 Начальный уровень
+### 🟢 Новичок
 
-- Brave  
-- DuckDuckGo  
-- Signal  
-- Bitwarden / Proton Pass  
-- Proton Mail / Tuta  
-- ONLYOFFICE  
+- Brave
+- DuckDuckGo
+- Signal
+- Bitwarden / Proton Pass
+- Aegis / Ente Auth (2FA)
+- Proton Mail / Tuta
+- ONLYOFFICE
 
 ---
 
 ### 🟡 Средний уровень
 
-- Nextcloud или Sync.com  
-- Joplin  
-- AdGuard Home  
-- Mullvad VPN  
-- Email с собственным доменом  
+- Nextcloud или Sync.com
+- Joplin
+- AdGuard Home
+- Mullvad VPN
+- Почта на собственном домене
 
 ---
 
-### 🔴 Продвинутый уровень
+### 🔴 Продвинутый
 
-- Nextcloud AIO  
-- Immich  
-- Vaultwarden  
-- SearxNG  
-- Jellyfin  
-- Arr-стек  
-- Paperless-ngx  
-- Audiobookshelf  
-- Nginx Proxy Manager  
-- Tailscale / Headscale  
-- Forgejo  
+- Nextcloud AIO
+- Immich
+- Vaultwarden
+- SearxNG
+- Jellyfin
+- Стек Arr
+- Paperless-ngx
+- Audiobookshelf
+- Nginx Proxy Manager
+- Tailscale / Headscale
+- Forgejo
+- GrapheneOS (см. [Мобильная приватность](mobile.md))

@@ -1,75 +1,81 @@
+---
+description: >-
+  Un camino práctico para salir de las plataformas basadas en vigilancia — por qué importa la privacidad, a qué apps cambiarte y cómo migrar sin trastornos.
+---
+
 <!--
 Source: privacy/index.md
-Last translated: 2026-04
+Last translated: 2026-07
 -->
 
-# 🛡️ Vida con Enfoque en la Privacidad
+# 🛡️ Vivir con la privacidad primero
 
-Una guía práctica para reducir la dependencia de Big Tech (Google, Apple, etc.) y tomar el control de tus datos sin romper tu flujo de trabajo.
+Una guía práctica para reducir la dependencia de las Big Tech (Google, Apple, etc.) y tomar el control de tus datos sin romper tu forma de trabajar.
 
 ---
 
 ## ✨ Filosofía
 
-Esto **no** es una guía sobre privacidad extrema ni sobre desconectarse completamente.
+Esta **no** es una guía sobre privacidad extrema ni sobre desaparecer del mapa.
 
-Se trata de pequeñas victorias hacia el siguiente paso:
+Trata de pequeñas victorias hacia el siguiente paso:
 
-- Reducir el seguimiento  
-- Ser dueño de tus datos  
-- Construir un sistema que *tú controlas*  
+- Reducir el rastreo
+- Ser dueño de tus datos
+- Construir una configuración que *tú controlas*
 
-> 💡 Si no estás pagando por el producto, *tú eres* el producto.
-
----
-
-## 🧭 Qué Aprenderás
-
-- Por qué la privacidad importa  
-- Qué aplicaciones/servicios reemplazar primero  
-- Cómo migrar de forma segura sin romper tu flujo de trabajo  
-- Un sistema real en funcionamiento  
+> 💡 Si no pagas por el producto, el producto *eres tú*.
 
 ---
 
-## 🪜 Cómo Usar Esta Guía
+## 🧭 Qué aprenderás
 
-Sigue en orden:
-
-1. **Por Qué la Privacidad Importa** → Entiende el *por qué*  
-2. **Recomendaciones de Apps** → Identifica reemplazos  
-3. **Guía de Migración** → Migra de forma segura  
-4. **Configuración RebelRx** → Véalo en práctica  
+- Por qué importa la privacidad
+- Qué apps/servicios reemplazar primero
+- Cómo migrar de forma segura sin romper tu flujo de trabajo
+- Una configuración del mundo real
 
 ---
 
-## ⚖️ El Intercambio Principal
+## 🪜 Cómo usar esta guía
 
-| Intercambio | Realidad |
-|------------|----------|
-| Conveniencia ❌ | Requiere más configuración |
-| Servicios “gratuitos” ❌ | Tus datos son el producto |
-| Bloqueo de ecosistema ❌ | Flexibilidad y control ✅ |
+Sigue este orden:
 
----
-
-## 🚀 Por Dónde Empezar (Victorias Rápidas)
-
-Si no haces nada más, empieza aquí:
-
-- Cambia al navegador Brave  
-- Usa Signal para mensajería/chat  
-- Configura un gestor de contraseñas autoalojado o de confianza  
-- Cambia a una suite de productividad de código abierto como OnlyOffice o BentoPDF  
-
-> 💡 Solo con esto reduces drásticamente el seguimiento y la explotación de tus datos.
+1. [Por qué importa la privacidad](why-privacy.md)
+2. [Recomendaciones de apps](app-recommendations.md)
+3. [Privacidad móvil](mobile.md)
+4. [Guía de migración](migration.md)
+5. [La configuración de RebelRx](my-setup.md)
 
 ---
 
-## 🔒 Privacidad del Sitio
+## ⚖️ El compromiso central
 
-RebelRx Docs **no** utiliza cookies de seguimiento, analíticas ni scripts de terceros.
+| Compromiso | Realidad |
+|---------|--------|
+| Comodidad ❌ | Requiere más configuración |
+| Servicios "gratis" ❌ | Tus datos son el producto |
+| Encierro en un ecosistema ❌ | Flexibilidad y control ✅ |
 
-No se recopilan datos personales.
+---
 
-> Sin seguimiento. Sin vigilancia. Sin recolección de datos.
+## 🚀 Por dónde empezar (victorias rápidas)
+
+Si no haces nada más, empieza por aquí:
+
+- Cámbiate al navegador Brave
+- Usa Signal para tu mensajería/chat
+- Configura un gestor de contraseñas autoalojado o de un tercero de confianza
+- Cámbiate a una suite de productividad de código abierto como OnlyOffice o BentoPDF
+
+> 💡 Solo con esto ya reduces drásticamente el rastreo y la minería de tus datos.
+
+---
+
+## 🔒 Privacidad de este sitio
+
+RebelRx Docs **no** usa cookies de rastreo, analíticas ni scripts de seguimiento de terceros.
+
+No se recopila ningún dato personal.
+
+> Sin rastreo. Sin vigilancia. Sin cosecha de datos.

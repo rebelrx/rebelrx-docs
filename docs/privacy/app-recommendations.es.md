@@ -1,77 +1,82 @@
+---
+description: >-
+  Reemplazos de alto impacto y respetuosos con la privacidad para las apps y servicios de las Big Tech, organizados por categoría y en niveles de principiante a avanzado.
+---
+
 <!--
 Source: privacy/app-recommendations.md
-Last translated: 2026-04
+Last translated: 2026-07
 -->
 
-# 🔁 Recomendaciones de Apps Basadas en Privacidad
+# 🔁 Recomendaciones de apps centradas en la privacidad
 
-Reemplazos de alto impacto para servicios comunes de Big Tech.
-
----
-
-## 🌐 Navegador y Búsqueda
-
-| Reemplaza | Con | Por qué |
-|----------|-----|--------|
-| Chrome | [Brave](https://brave.com/) | Bloqueo integrado de anuncios/rastreadores, basado en Chromium |
-| Google Search | [DuckDuckGo](https://duckduckgo.com/) / [Startpage](https://www.startpage.com/) | Menor seguimiento |
-
-> 💡 Avanzado: Autoalojar [SearxNG](https://docs.searxng.org/) para un motor de búsqueda completamente privado
+Reemplazos de alto impacto para los servicios habituales de las Big Tech.
 
 ---
 
-## 📧 Correo Electrónico
+## 🌐 Navegador y búsqueda
 
-| Reemplaza | Con | Por qué |
-|----------|-----|--------|
-| Gmail | [Proton Mail](https://proton.me/mail) / [Tuta](https://tuta.com/) | Cifrado de extremo a extremo, enfoque en privacidad |
+| Reemplaza | Por | Por qué |
+|--------|------|-----|
+| Chrome | [Brave](https://brave.com/) | Bloqueo de anuncios/rastreadores integrado, basado en Chromium |
+| Google Search | [DuckDuckGo](https://duckduckgo.com/) / [Startpage](https://www.startpage.com/) | Rastreo reducido |
 
-> 💡 Tip: Usa un **dominio personalizado** para flexibilidad a largo plazo
+> 💡 Avanzado: autoaloja [SearxNG](https://docs.searxng.org/) para un motor de búsqueda totalmente privado
 
 ---
 
-## ☁️ Almacenamiento en la Nube
+## 📧 Correo electrónico
 
-| Reemplaza | Con | Por qué |
-|----------|-----|--------|
+| Reemplaza | Por | Por qué |
+|--------|------|-----|
+| Gmail | [Proton Mail](https://proton.me/mail) / [Tuta](https://tuta.com/) | Cifrado de extremo a extremo, privacidad primero |
+
+> 💡 Consejo: usa un **dominio propio** para tener flexibilidad a largo plazo
+
+---
+
+## ☁️ Almacenamiento en la nube
+
+| Reemplaza | Por | Por qué |
+|--------|------|-----|
 | Google Drive | [Nextcloud](https://nextcloud.com/) | Control total, autoalojable |
-| Google Drive / Dropbox | [Sync.com](https://www.sync.com/) | Almacenamiento cifrado (opción alojada) |
-| iCloud Drive | [Nextcloud](https://nextcloud.com/) / [Syncthing](https://syncthing.net/) | Opciones de sincronización descentralizadas |
+| Google Drive / Dropbox | [Sync.com](https://www.sync.com/) | Almacenamiento en la nube cifrado (opción alojada) |
+| iCloud Drive | [Nextcloud](https://nextcloud.com/) / [Syncthing](https://syncthing.net/) | Opciones de sincronización descentralizada |
 
 ---
 
-## 📝 Notas y Documentos
+## 📝 Notas y documentos
 
-| Reemplaza | Con | Por qué |
-|----------|-----|--------|
+| Reemplaza | Por | Por qué |
+|--------|------|-----|
 | Google Keep | [Joplin](https://joplinapp.org/) | Basado en Markdown, abierto |
 | Apple Notes | [Joplin](https://joplinapp.org/) / [Standard Notes](https://standardnotes.com/) | Multiplataforma |
 | VS Code | [VSCodium](https://vscodium.com/) | Código abierto, sin telemetría |
 
 ---
 
-## 📆 Calendario y Contactos
+## 📆 Calendario y contactos
 
-| Reemplaza | Con | Por qué |
-|----------|-----|--------|
-| Google Calendar | [Nextcloud](https://nextcloud.com/) / [Baikal](https://sabre.io/baikal/) | Soporte CalDAV |
+| Reemplaza | Por | Por qué |
+|--------|------|-----|
+| Google Calendar | [Nextcloud](https://nextcloud.com/) / [Baikal](https://sabre.io/baikal/) | Soporte de CalDAV |
 | Google Contacts | [Nextcloud](https://nextcloud.com/) / [Radicale](https://radicale.org/) | Control total |
 
 ---
 
-## 🏢 Suite de Oficina
+## 🏢 Suite ofimática
 
-| Reemplaza | Con | Por qué |
-|----------|-----|--------|
-| Microsoft Office 365 | [ONLYOFFICE](https://www.onlyoffice.com/) / [Libre Office](https://www.libreoffice.org/) | Código abierto |
+| Reemplaza | Por | Por qué |
+|--------|------|-----|
+| Microsoft Office 365 | [ONLYOFFICE](https://www.onlyoffice.com/) / [LibreOffice](https://www.libreoffice.org/) | Código abierto |
 | Outlook | [Thunderbird](https://www.thunderbird.net/) | Código abierto |
 
 ---
 
 ## 💬 Mensajería
 
-| Reemplaza | Con | Por qué |
-|----------|-----|--------|
+| Reemplaza | Por | Por qué |
+|--------|------|-----|
 | SMS / Messenger | [Signal](https://signal.org/) | Cifrado de extremo a extremo |
 
 > 💡 Avanzado:
@@ -83,117 +88,129 @@ Reemplazos de alto impacto para servicios comunes de Big Tech.
 
 ## 📸 Fotos
 
-| Reemplaza | Con | Por qué |
-|----------|-----|--------|
+| Reemplaza | Por | Por qué |
+|--------|------|-----|
 | Google Photos | [Immich](https://immich.app/) | Autoalojado, moderno |
 | iCloud Photos | [Immich](https://immich.app/) / [PhotoPrism](https://www.photoprism.app/) | Propiedad total |
 
 ---
 
-## 🔐 Gestor de Contraseñas
+## 🔐 Gestor de contraseñas
 
-| Reemplaza | Con | Por qué |
-|----------|-----|--------|
-| Chrome Passwords | [Bitwarden](https://bitwarden.com/) / [Vaultwarden](https://github.com/dani-garcia/vaultwarden) | Seguro, multiplataforma |
-| Chrome Passwords | [Proton Pass](https://proton.me/pass) | Enfoque en privacidad, opción no autoalojada |
-
----
-
-## 🌍 DNS y Bloqueo de Anuncios
-
-| Reemplaza | Con | Por qué |
-|----------|-----|--------|
-| DNS del ISP | [AdGuard Home](https://adguard.com/en/adguard-home/overview.html) / [Pi-hole](https://pi-hole.net/) | Bloqueo de anuncios y rastreo a nivel de red |
+| Reemplaza | Por | Por qué |
+|--------|------|-----|
+| Contraseñas de Chrome | [Bitwarden](https://bitwarden.com/) / [Vaultwarden](https://github.com/dani-garcia/vaultwarden) | Seguro, multiplataforma |
+| Contraseñas de Chrome | [Proton Pass](https://proton.me/pass) | Privacidad primero, opción no autoalojada |
 
 ---
 
-## 🔒 VPN y Acceso Seguro
+## 🔑 Autenticación de dos factores
 
-| Reemplaza | Con | Por qué |
-|----------|-----|--------|
-| Sin VPN / VPN gratuitas | [Mullvad](https://mullvad.net/) | Enfoque en privacidad, sin cuenta requerida |
+| Reemplaza | Por | Por qué |
+|--------|------|-----|
+| Google Authenticator / Authy | [Aegis](https://getaegis.app/) (Android) / [Ente Auth](https://ente.io/auth/) (multiplataforma) | Código abierto, respaldos cifrados y exportables, sin encierro en la nube |
+
+> 💡 Google Authenticator sincroniza tus semillas de 2FA con tu cuenta de Google; Authy es de código cerrado y sufrió una brecha en 2024. Tu segundo factor merece algo mejor. Consulta la [guía de Privacidad móvil](mobile.md) para más detalles.
+
+---
+
+## 🌍 DNS y bloqueo de anuncios
+
+| Reemplaza | Por | Por qué |
+|--------|------|-----|
+| DNS del ISP | [AdGuard Home](https://adguard.com/en/adguard-home/overview.html) / [Pi-hole](https://pi-hole.net/) | Bloquea anuncios y rastreo en toda la red |
+
+---
+
+## 🔒 VPN y acceso seguro
+
+| Reemplaza | Por | Por qué |
+|--------|------|-----|
+| Sin VPN / VPNs gratuitas | [Mullvad](https://mullvad.net/) | Privacidad primero, no requiere cuenta |
 | VPN tradicional | [Tailscale](https://tailscale.com/) / [Headscale](https://github.com/juanfont/headscale) | VPN de malla privada, acceso remoto seguro |
 
 ---
 
-## 🎥 Medios y Streaming
+## 🎥 Medios y streaming
 
-| Reemplaza | Con | Por qué |
-|----------|-----|--------|
+| Reemplaza | Por | Por qué |
+|--------|------|-----|
 | Netflix / HBO / Streaming | [Jellyfin](https://jellyfin.org/) | Streaming de medios totalmente autoalojado |
 | Suscripciones de streaming | Stack Arr ([Sonarr](https://sonarr.tv/), [Radarr](https://radarr.video/), [Prowlarr](https://prowlarr.com/)) | Gestión automatizada de medios |
 
 ---
 
-## 📚 Libros, PDFs y Conocimiento
+## 📚 Libros, PDFs y conocimiento
 
-| Reemplaza | Con | Por qué |
-|----------|-----|--------|
+| Reemplaza | Por | Por qué |
+|--------|------|-----|
 | Ecosistema Kindle | [Calibre-Web](https://github.com/janeczku/calibre-web) / [Kavita](https://www.kavitareader.com/) | Bibliotecas de ebooks autoalojadas |
-| Audible / apps de podcasts | [Audiobookshelf](https://www.audiobookshelf.org/) | Audiolibros y podcasts autoalojados |
-| Adobe Reader | [Sumatra PDF](https://www.sumatrapdfreader.org/free-pdf-reader) | Ligero, enfocado en privacidad |
-| Adobe Acrobat / CC | [BentoPDF](https://github.com/bentoml/BentoPDF) | Herramientas PDF abiertas/autoalojadas |
-| Acumulación de papel | [Paperless-ngx](https://docs.paperless-ngx.com/) | Sistema de gestión documental |
+| Audible / apps de pódcast | [Audiobookshelf](https://www.audiobookshelf.org/) | Audiolibros + pódcast autoalojados |
+| Adobe Reader | [Sumatra PDF](https://www.sumatrapdfreader.org/free-pdf-reader) | Ligero, respetuoso con la privacidad |
+| Adobe Acrobat / CC | [BentoPDF](https://github.com/alam00000/bentopdf) | Herramientas de PDF abiertas/autoalojadas |
+| Montañas de papel | [Paperless-ngx](https://docs.paperless-ngx.com/) | Sistema de gestión documental |
 
 ---
 
-## 💰 Finanzas Personales
+## 💰 Finanzas personales
 
-| Reemplaza | Con | Por qué |
-|----------|-----|--------|
-| Mint / YNAB | [Actual Budget](https://actualbudget.org/) | Presupuesto autoalojado, enfocado en privacidad |
+| Reemplaza | Por | Por qué |
+|--------|------|-----|
+| Mint / YNAB | [Actual Budget](https://actualbudget.org/) | Presupuestos autoalojados y centrados en la privacidad |
 
 ---
 
 ## 🧰 Desarrollo y Git
 
-| Reemplaza | Con | Por qué |
-|----------|-----|--------|
+| Reemplaza | Por | Por qué |
+|--------|------|-----|
 | GitHub | [Forgejo](https://forgejo.org/) | Git autoalojado, control total |
 
 ---
 
-## 🌐 Herramientas de Red
+## 🌐 Herramientas de red
 
-| Reemplaza | Con | Por qué |
-|----------|-----|--------|
-| Speedtest.net | [LibreSpeed](https://librespeed.org/) / [Speedtest Tracker](https://github.com/alexjustesen/speedtest-tracker) | Pruebas de velocidad autoalojadas, sin seguimiento |
+| Reemplaza | Por | Por qué |
+|--------|------|-----|
+| Speedtest.net | [LibreSpeed](https://librespeed.org/) / [Speedtest Tracker](https://github.com/alexjustesen/speedtest-tracker) | Pruebas de velocidad autoalojadas, sin rastreo |
 
 ---
 
-## 🧱 Niveles del Stack de Privacidad
+## 🧱 Niveles del stack de privacidad
 
 ### 🟢 Principiante
 
-- Brave  
-- DuckDuckGo  
-- Signal  
-- Bitwarden / Proton Pass  
-- Proton Mail / Tuta  
-- ONLYOFFICE  
+- Brave
+- DuckDuckGo
+- Signal
+- Bitwarden / Proton Pass
+- Aegis / Ente Auth (2FA)
+- Proton Mail / Tuta
+- ONLYOFFICE
 
 ---
 
 ### 🟡 Intermedio
 
-- Nextcloud o Sync.com  
-- Joplin  
-- AdGuard Home  
-- Mullvad VPN  
-- Correo con dominio personalizado  
+- Nextcloud o Sync.com
+- Joplin
+- AdGuard Home
+- Mullvad VPN
+- Correo con dominio propio
 
 ---
 
 ### 🔴 Avanzado
 
-- Nextcloud AIO  
-- Immich  
-- Vaultwarden  
-- SearxNG  
-- Jellyfin  
-- Stack Arr  
-- Paperless-ngx  
-- Audiobookshelf  
-- Nginx Proxy Manager  
-- Tailscale / Headscale  
-- Forgejo  
+- Nextcloud AIO
+- Immich
+- Vaultwarden
+- SearxNG
+- Jellyfin
+- Stack Arr
+- Paperless-ngx
+- Audiobookshelf
+- Nginx Proxy Manager
+- Tailscale / Headscale
+- Forgejo
+- GrapheneOS (ver [Privacidad móvil](mobile.md))
