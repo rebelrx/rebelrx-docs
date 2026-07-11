@@ -238,7 +238,7 @@ sudo update-rc.d wait-for-nas defaults
     - Bulk media, documents, backups → NAS mount
 
 - Don't mount with the NAS admin account — dedicated low-privilege user, per share
-- Don't use `soft` mounts for anything that writes — silent partial writes are how files corrupt
+- Don't use `soft` mounts for anything that writes — silent partial writes are how files corrupt. (The [Devuan server guide](../linux/devuan-server-install.md) deliberately uses `soft` for read-mostly shares to keep a headless box responsive — that's the other side of this tradeoff)
 - Don't put credentials in `fstab` — credentials file, `chmod 600`
 - Don't skip the interactive test mount — fstab is where you *record* a working mount, not where you *discover* a broken one
 

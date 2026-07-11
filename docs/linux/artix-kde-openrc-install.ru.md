@@ -274,7 +274,7 @@ basestrap /mnt base base-devel openrc elogind-openrc \
   pipewire pipewire-openrc pipewire-alsa pipewire-pulse pipewire-pulse-openrc pipewire-jack wireplumber wireplumber-openrc alsa-utils sof-firmware \
   nano vim neovim \
   git wget curl \
-  reflector \
+  reflector
 ```
 
 Запустите reflector, чтобы использовать самые быстрые зеркала (это ускорит установку пакетов по мере продвижения по установке):
@@ -501,7 +501,7 @@ pacman -S \
   polkit-kde-agent \
   kde-cli-tools \
   kde-gtk-config \
-  xdg-user-dirs \
+  xdg-user-dirs
 ```
 
 **Включите SDDM:**
@@ -706,7 +706,7 @@ sudo pacman -S \
   sudo nano vim git curl wget rsync unzip zip \
   reflector pacman-contrib pkgfile \
   bash-completion man-db man-pages \
-  ufw \
+  ufw
 ```
 
 - **NetworkManager**: самая простая сеть для десктопа
@@ -734,7 +734,7 @@ sudo pacman -S \
   kate konsole \
   spectacle flameshot \
   partitionmanager \
-  kdeconnect \
+  kdeconnect
 ```
 
 - **Okular** для PDF
@@ -775,7 +775,7 @@ paru -S brave-bin \
   signal-desktop \
   vscodium-bin \
   onlyoffice-bin \
-  timeshift-autosnap \
+  timeshift-autosnap
 ```
 
 - Браузер **Brave** (предпочтительнее Firefox)
@@ -799,7 +799,7 @@ sudo pacman -S \
   vlc mpv \
   ffmpeg \
   libreoffice-fresh \
-  obs-studio \
+  obs-studio
 ```
 
 - Медиаплеер **VLC** (предпочтителен) **или MPV**

@@ -354,7 +354,7 @@ Self-hosted network performance testing without tracking.
 | Google Calendar | Nextcloud |
 | Google Contacts | Nextcloud |
 | Gmail | Proton Mail / Tuta |
-| Chrome Passwords | Vaultwarden / Proton Pass |
+| Chrome Passwords | Proton Pass |
 | Chrome | Brave |
 | Google Docs (partial) | Nextcloud + Joplin |
 | Netflix / HBO | Jellyfin + Arr stack |

@@ -368,7 +368,7 @@ tailscale set --ssh
 
 When using Tailscale SSH, connections are authenticated by your Tailscale ACLs instead of local SSH keys. You can configure who has access in the Tailscale admin console under **Access Controls**.
 
-**Note:** If you enabled Tailscale SSH in step 5.6.6, you can optionally disable the local SSH daemon entirely since Tailscale handles SSH directly:
+**Note:** If you enabled Tailscale SSH above, you can optionally disable the local SSH daemon entirely since Tailscale handles SSH directly:
 
 ```bash
 service ssh stop
@@ -690,19 +690,20 @@ Once the manual test succeeds, add entries to `/etc/fstab` for automatic mountin
 nano /etc/fstab
 
 # NAS NFS Mounts
-nas.local:/volume1/media    /mnt/nas/media    nfs4  rw,soft,intr,timeo=30,retrans=3,_netdev  0  0
-nas.local:/volume1/backups  /mnt/nas/backups  nfs4  rw,soft,intr,timeo=30,retrans=3,_netdev  0  0
-nas.local:/volume1/shared   /mnt/nas/shared   nfs4  rw,soft,intr,timeo=30,retrans=3,_netdev  0  0
+nas.local:/volume1/media    /mnt/nas/media    nfs4  rw,soft,timeo=30,retrans=3,_netdev  0  0
+nas.local:/volume1/backups  /mnt/nas/backups  nfs4  rw,soft,timeo=30,retrans=3,_netdev  0  0
+nas.local:/volume1/shared   /mnt/nas/shared   nfs4  rw,soft,timeo=30,retrans=3,_netdev  0  0
 ```
 
 **Mount options explained:**
 
 - **`rw`**: Read-write access. Use `ro` for read-only shares like media libraries.
 - **`soft`**: Returns an error if the NAS is unreachable instead of hanging indefinitely. Critical for a headless server — a `hard` mount will cause processes to freeze and become unkillable if the NAS goes offline.
-- **`intr`**: Allows NFS operations to be interrupted by signals (e.g., Ctrl+C).
 - **`timeo=30`**: Timeout in deciseconds (3 seconds) before retrying.
 - **`retrans=3`**: Number of retries before reporting failure.
 - **`_netdev`**: Tells the init system this mount requires the network to be up first, preventing boot hangs if the NAS is unreachable.
+
+> ⚠️ **`soft` vs `hard` is a deliberate tradeoff.** This guide uses `soft` to keep a headless server responsive when the NAS drops. The [NAS Mounting guide](../homelab/nas-mounting.md) recommends `hard` for shares that receive writes (backups especially), because `soft` can silently truncate interrupted writes. Pick per share: `soft` for read-mostly media, `hard` for write-critical data.
 
 Mount all new fstab entries:
 
@@ -731,8 +732,6 @@ NFS permissions depend on how your NAS exports are configured. Common approaches
 Bind-mount the host NFS path
 
 In your `compose.yaml`:
-
-yaml
 
 ```yaml
 services:

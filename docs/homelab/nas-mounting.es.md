@@ -244,7 +244,7 @@ sudo update-rc.d wait-for-nas defaults
     - Medios masivos, documentos, respaldos → montaje del NAS
 
 - No montes con la cuenta de administrador del NAS — usuario dedicado de bajos privilegios, por recurso compartido
-- No uses montajes `soft` para nada que escriba — las escrituras parciales silenciosas son la manera en que los archivos se corrompen
+- No uses montajes `soft` para nada que escriba — las escrituras parciales silenciosas son la manera en que los archivos se corrompen. (La [guía del servidor Devuan](../linux/devuan-server-install.md) usa deliberadamente `soft` para recursos de lectura mayoritaria y así mantener con capacidad de respuesta una máquina headless — es la otra cara de este compromiso)
 - No pongas credenciales en `fstab` — archivo de credenciales, `chmod 600`
 - No te saltes la prueba de montaje interactiva — fstab es donde *registras* un montaje que funciona, no donde *descubres* uno roto
 

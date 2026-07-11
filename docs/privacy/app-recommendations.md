@@ -63,7 +63,7 @@ High-impact replacements for common Big Tech services.
 
 | Replace | With | Why |
 |--------|------|-----|
-| Microsoft Office 365 | [ONLYOFFICE](https://www.onlyoffice.com/) / [Libre Office](https://www.libreoffice.org/) | Open-source |
+| Microsoft Office 365 | [ONLYOFFICE](https://www.onlyoffice.com/) / [LibreOffice](https://www.libreoffice.org/) | Open-source |
 | Outlook | [Thunderbird](https://www.thunderbird.net/) | Open-source |
 
 ---

@@ -359,7 +359,7 @@ Self-hosted тестирование производительности сет
 | Google Calendar | Nextcloud |
 | Google Contacts | Nextcloud |
 | Gmail | Proton Mail / Tuta |
-| Пароли Chrome | Vaultwarden / Proton Pass |
+| Пароли Chrome | Proton Pass |
 | Chrome | Brave |
 | Google Docs (частично) | Nextcloud + Joplin |
 | Netflix / HBO | Jellyfin + стек Arr |

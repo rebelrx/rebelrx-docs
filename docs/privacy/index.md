@@ -61,7 +61,7 @@ If you do nothing else, start here:
 - Switch to Brave browser
 - Use Signal for your messaging/chat
 - Setup a self-hosted or trusted third-party password manager
-- Switch to an open-source productivity suite like Only Office or BentoPDF
+- Switch to an open-source productivity suite like ONLYOFFICE or BentoPDF
 
 > 💡 These alone dramatically reduce tracking and having your data mined.
 

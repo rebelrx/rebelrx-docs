@@ -373,7 +373,7 @@ tailscale set --ssh
 
 Al usar Tailscale SSH, las conexiones se autentican mediante tus ACLs de Tailscale en lugar de claves SSH locales. Puedes configurar quién tiene acceso en la consola de administración de Tailscale, en **Access Controls**.
 
-**Nota:** si habilitaste Tailscale SSH en el paso 5.6.6, puedes desactivar opcionalmente el demonio SSH local por completo, ya que Tailscale gestiona SSH directamente:
+**Nota:** si habilitaste Tailscale SSH más arriba, puedes desactivar opcionalmente el demonio SSH local por completo, ya que Tailscale gestiona SSH directamente:
 
 ```bash
 service ssh stop
@@ -695,19 +695,20 @@ Cuando la prueba manual tenga éxito, añade entradas a `/etc/fstab` para el mon
 nano /etc/fstab
 
 # Montajes NFS del NAS
-nas.local:/volume1/media    /mnt/nas/media    nfs4  rw,soft,intr,timeo=30,retrans=3,_netdev  0  0
-nas.local:/volume1/backups  /mnt/nas/backups  nfs4  rw,soft,intr,timeo=30,retrans=3,_netdev  0  0
-nas.local:/volume1/shared   /mnt/nas/shared   nfs4  rw,soft,intr,timeo=30,retrans=3,_netdev  0  0
+nas.local:/volume1/media    /mnt/nas/media    nfs4  rw,soft,timeo=30,retrans=3,_netdev  0  0
+nas.local:/volume1/backups  /mnt/nas/backups  nfs4  rw,soft,timeo=30,retrans=3,_netdev  0  0
+nas.local:/volume1/shared   /mnt/nas/shared   nfs4  rw,soft,timeo=30,retrans=3,_netdev  0  0
 ```
 
 **Explicación de las opciones de montaje:**
 
 - **`rw`**: acceso de lectura-escritura. Usa `ro` para recursos de solo lectura como las bibliotecas de medios.
 - **`soft`**: devuelve un error si el NAS es inalcanzable en lugar de colgarse indefinidamente. Crítico en un servidor headless — un montaje `hard` hará que los procesos se congelen y se vuelvan imposibles de matar si el NAS se desconecta.
-- **`intr`**: permite que las operaciones NFS sean interrumpidas por señales (p. ej., Ctrl+C).
 - **`timeo=30`**: tiempo de espera en decisegundos (3 segundos) antes de reintentar.
 - **`retrans=3`**: número de reintentos antes de reportar el fallo.
 - **`_netdev`**: indica al sistema de init que este montaje requiere que la red esté levantada primero, evitando cuelgues en el arranque si el NAS es inalcanzable.
+
+> ⚠️ **`soft` vs `hard` es un compromiso deliberado.** Esta guía usa `soft` para mantener un servidor headless con capacidad de respuesta cuando el NAS se cae. La [guía de montaje del NAS](../homelab/nas-mounting.md) recomienda `hard` para los recursos que reciben escrituras (los respaldos especialmente), porque `soft` puede truncar silenciosamente las escrituras interrumpidas. Elige por recurso compartido: `soft` para medios de solo lectura mayoritaria, `hard` para datos críticos de escritura.
 
 Montar todas las nuevas entradas del fstab:
 
@@ -736,8 +737,6 @@ Los permisos de NFS dependen de cómo estén configuradas las exportaciones de t
 Haz bind-mount de la ruta NFS del host
 
 En tu `compose.yaml`:
-
-yaml
 
 ```yaml
 services:

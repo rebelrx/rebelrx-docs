@@ -359,7 +359,7 @@ Last translated: 2026-07
 | Google 日历 | Nextcloud |
 | Google 通讯录 | Nextcloud |
 | Gmail | Proton Mail / Tuta |
-| Chrome 密码 | Vaultwarden / Proton Pass |
+| Chrome 密码 | Proton Pass |
 | Chrome | Brave |
 | Google 文档（部分） | Nextcloud + Joplin |
 | Netflix / HBO | Jellyfin + Arr 全家桶 |

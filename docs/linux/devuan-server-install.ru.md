@@ -373,7 +373,7 @@ tailscale set --ssh
 
 При использовании Tailscale SSH подключения аутентифицируются вашими ACL Tailscale вместо локальных SSH-ключей. Настроить, у кого есть доступ, можно в консоли администратора Tailscale в разделе **Access Controls**.
 
-**Примечание:** если вы включили Tailscale SSH на шаге 5.6.6, локальный SSH-демон можно при желании полностью отключить, поскольку SSH теперь обслуживает сам Tailscale:
+**Примечание:** если вы включили Tailscale SSH выше, локальный SSH-демон можно при желании полностью отключить, поскольку SSH теперь обслуживает сам Tailscale:
 
 ```bash
 service ssh stop
@@ -695,19 +695,20 @@ mount -t nfs -o vers=3 nas.local:/volume1/media /mnt/nas/media
 nano /etc/fstab
 
 # NFS-монтирования NAS
-nas.local:/volume1/media    /mnt/nas/media    nfs4  rw,soft,intr,timeo=30,retrans=3,_netdev  0  0
-nas.local:/volume1/backups  /mnt/nas/backups  nfs4  rw,soft,intr,timeo=30,retrans=3,_netdev  0  0
-nas.local:/volume1/shared   /mnt/nas/shared   nfs4  rw,soft,intr,timeo=30,retrans=3,_netdev  0  0
+nas.local:/volume1/media    /mnt/nas/media    nfs4  rw,soft,timeo=30,retrans=3,_netdev  0  0
+nas.local:/volume1/backups  /mnt/nas/backups  nfs4  rw,soft,timeo=30,retrans=3,_netdev  0  0
+nas.local:/volume1/shared   /mnt/nas/shared   nfs4  rw,soft,timeo=30,retrans=3,_netdev  0  0
 ```
 
 **Пояснение опций монтирования:**
 
 - **`rw`**: чтение-запись. Для ресурсов только на чтение, вроде медиабиблиотек, используйте `ro`.
 - **`soft`**: если NAS недоступен, возвращается ошибка вместо бесконечного зависания. Критично для headless-сервера — при `hard`-монтировании процессы замрут и станут неубиваемыми, если NAS уйдёт в офлайн.
-- **`intr`**: позволяет прерывать операции NFS сигналами (например, Ctrl+C).
 - **`timeo=30`**: тайм-аут в децисекундах (3 секунды) перед повтором.
 - **`retrans=3`**: число повторов перед сообщением об ошибке.
 - **`_netdev`**: сообщает системе инициализации, что этому монтированию сначала нужна сеть, предотвращая зависание загрузки при недоступном NAS.
+
+> ⚠️ **`soft` против `hard` — осознанный компромисс.** Это руководство использует `soft`, чтобы headless-сервер оставался отзывчивым при пропадании NAS. [Руководство по монтированию NAS](../homelab/nas-mounting.md) рекомендует `hard` для ресурсов, принимающих запись (особенно резервные копии), потому что `soft` может молча обрезать прерванные записи. Выбирайте для каждого ресурса отдельно: `soft` — для преимущественно читаемых медиа, `hard` — для критичных к записи данных.
 
 Смонтируйте все новые записи fstab:
 
@@ -736,8 +737,6 @@ df -h | grep nas
 Пробросьте NFS-путь хоста через bind-mount
 
 В вашем `compose.yaml`:
-
-yaml
 
 ```yaml
 services:

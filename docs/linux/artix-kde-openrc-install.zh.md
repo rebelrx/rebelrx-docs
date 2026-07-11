@@ -274,7 +274,7 @@ basestrap /mnt base base-devel openrc elogind-openrc \
   pipewire pipewire-openrc pipewire-alsa pipewire-pulse pipewire-pulse-openrc pipewire-jack wireplumber wireplumber-openrc alsa-utils sof-firmware \
   nano vim neovim \
   git wget curl \
-  reflector \
+  reflector
 ```
 
 运行 reflector 以使用最快的镜像（能加快后续安装过程中软件包的下载速度）：
@@ -501,7 +501,7 @@ pacman -S \
   polkit-kde-agent \
   kde-cli-tools \
   kde-gtk-config \
-  xdg-user-dirs \
+  xdg-user-dirs
 ```
 
 **启用 SDDM：**
@@ -706,7 +706,7 @@ sudo pacman -S \
   sudo nano vim git curl wget rsync unzip zip \
   reflector pacman-contrib pkgfile \
   bash-completion man-db man-pages \
-  ufw \
+  ufw
 ```
 
 - **NetworkManager**：最省心的桌面网络方案
@@ -734,7 +734,7 @@ sudo pacman -S \
   kate konsole \
   spectacle flameshot \
   partitionmanager \
-  kdeconnect \
+  kdeconnect
 ```
 
 - **Okular** 看 PDF
@@ -775,7 +775,7 @@ paru -S brave-bin \
   signal-desktop \
   vscodium-bin \
   onlyoffice-bin \
-  timeshift-autosnap \
+  timeshift-autosnap
 ```
 
 - **Brave** 浏览器（比 Firefox 更推荐）
@@ -799,7 +799,7 @@ sudo pacman -S \
   vlc mpv \
   ffmpeg \
   libreoffice-fresh \
-  obs-studio \
+  obs-studio
 ```
 
 - **VLC**（更推荐）**或 MPV** 媒体播放器

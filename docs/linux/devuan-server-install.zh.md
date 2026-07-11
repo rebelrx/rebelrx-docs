@@ -373,7 +373,7 @@ tailscale set --ssh
 
 使用 Tailscale SSH 时，连接由你的 Tailscale ACL 认证，而非本地 SSH 密钥。可以在 Tailscale 管理控制台的 **Access Controls** 中配置谁拥有访问权限。
 
-**注意：**如果你在步骤 5.6.6 中启用了 Tailscale SSH，可以选择完全禁用本地 SSH 守护进程，因为 SSH 已由 Tailscale 直接处理：
+**注意：**如果你在上文启用了 Tailscale SSH，可以选择完全禁用本地 SSH 守护进程，因为 SSH 已由 Tailscale 直接处理：
 
 ```bash
 service ssh stop
@@ -695,19 +695,20 @@ mount -t nfs -o vers=3 nas.local:/volume1/media /mnt/nas/media
 nano /etc/fstab
 
 # NAS NFS 挂载
-nas.local:/volume1/media    /mnt/nas/media    nfs4  rw,soft,intr,timeo=30,retrans=3,_netdev  0  0
-nas.local:/volume1/backups  /mnt/nas/backups  nfs4  rw,soft,intr,timeo=30,retrans=3,_netdev  0  0
-nas.local:/volume1/shared   /mnt/nas/shared   nfs4  rw,soft,intr,timeo=30,retrans=3,_netdev  0  0
+nas.local:/volume1/media    /mnt/nas/media    nfs4  rw,soft,timeo=30,retrans=3,_netdev  0  0
+nas.local:/volume1/backups  /mnt/nas/backups  nfs4  rw,soft,timeo=30,retrans=3,_netdev  0  0
+nas.local:/volume1/shared   /mnt/nas/shared   nfs4  rw,soft,timeo=30,retrans=3,_netdev  0  0
 ```
 
 **挂载选项说明：**
 
 - **`rw`**：读写访问。像媒体库这样的只读共享请用 `ro`。
 - **`soft`**：NAS 不可达时返回错误，而不是无限期挂起。对无头服务器至关重要——若使用 `hard` 挂载，NAS 掉线时进程会冻结且无法杀死。
-- **`intr`**：允许 NFS 操作被信号中断（如 Ctrl+C）。
 - **`timeo=30`**：重试前的超时时间，单位是十分之一秒（即 3 秒）。
 - **`retrans=3`**：报告失败前的重试次数。
 - **`_netdev`**：告诉 init 系统此挂载需要先有网络，防止 NAS 不可达时开机卡死。
+
+> ⚠️ **`soft` 与 `hard` 是一个有意为之的取舍。**本指南使用 `soft`，以便 NAS 掉线时无头服务器仍能保持响应。[NAS 挂载指南](../homelab/nas-mounting.md)则为有写入的共享（尤其是备份）推荐 `hard`，因为 `soft` 可能悄无声息地截断被中断的写入。按共享分别选择：以读为主的媒体用 `soft`，写入关键的数据用 `hard`。
 
 挂载 fstab 中的全部新条目：
 
@@ -736,8 +737,6 @@ NFS 权限取决于 NAS 导出的配置方式。常见做法：
 绑定挂载主机上的 NFS 路径
 
 在你的 `compose.yaml` 中：
-
-yaml
 
 ```yaml
 services:

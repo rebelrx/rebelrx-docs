@@ -269,7 +269,7 @@ basestrap /mnt base base-devel openrc elogind-openrc \
   pipewire pipewire-openrc pipewire-alsa pipewire-pulse pipewire-pulse-openrc pipewire-jack wireplumber wireplumber-openrc alsa-utils sof-firmware \
   nano vim neovim \
   git wget curl \
-  reflector \
+  reflector
 ```
 
 Run reflector to use the fastest mirrors (will help speed up package installs as you progress along the installation):
@@ -496,7 +496,7 @@ pacman -S \
   polkit-kde-agent \
   kde-cli-tools \
   kde-gtk-config \
-  xdg-user-dirs \
+  xdg-user-dirs
 ```
 
 **Enable SDDM:**
@@ -701,7 +701,7 @@ sudo pacman -S \
   sudo nano vim git curl wget rsync unzip zip \
   reflector pacman-contrib pkgfile \
   bash-completion man-db man-pages \
-  ufw \
+  ufw
 ```
 
 - **NetworkManager**: easiest desktop networking
@@ -729,7 +729,7 @@ sudo pacman -S \
   kate konsole \
   spectacle flameshot \
   partitionmanager \
-  kdeconnect \
+  kdeconnect
 ```
 
 - **Okular** for PDFs
@@ -763,14 +763,14 @@ makepkg -si
 
 - **Paru** recommended AUR helper
 
-AUR apps / packages\*\*:\*\*
+AUR apps / packages:
 
 ```bash
 paru -S brave-bin \
   signal-desktop \
   vscodium-bin \
   onlyoffice-bin \
-  timeshift-autosnap \
+  timeshift-autosnap
 ```
 
 - **Brave** browser (preferred over Firefox)
@@ -794,7 +794,7 @@ sudo pacman -S \
   vlc mpv \
   ffmpeg \
   libreoffice-fresh \
-  obs-studio \
+  obs-studio
 ```
 
 - **VLC** (preferred) **or MPV** media player

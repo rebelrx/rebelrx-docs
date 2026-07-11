@@ -359,7 +359,7 @@ Pruebas de rendimiento de red autoalojadas y sin rastreo.
 | Google Calendar | Nextcloud |
 | Google Contacts | Nextcloud |
 | Gmail | Proton Mail / Tuta |
-| Contraseñas de Chrome | Vaultwarden / Proton Pass |
+| Contraseñas de Chrome | Proton Pass |
 | Chrome | Brave |
 | Google Docs (parcial) | Nextcloud + Joplin |
 | Netflix / HBO | Jellyfin + stack Arr |
