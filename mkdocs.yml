@@ -11,6 +11,10 @@ copyright: >
   <a href="/disclaimer/">Disclaimer</a>
 docs_dir: docs
 site_dir: site
+not_in_nav: |
+  /disclaimer*.md
+  /privacy-policy*.md
+  /terms-of-service*.md
 theme:
   name: material
   language: en
@@ -22,7 +26,6 @@ theme:
     - navigation.path
     - navigation.tabs
     - navigation.footer
-    - navigation.instant
     - toc.follow
     - search.suggest
     - search.highlight
