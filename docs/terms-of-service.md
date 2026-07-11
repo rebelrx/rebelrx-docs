@@ -1,6 +1,6 @@
 # 📜 Terms of Service
 
-_Last updated: April 19, 2026_
+_Last updated: July 11, 2026_
 
 Welcome to RebelRx Docs (“this site”), operated by RebelRx Group LLC (“RebelRx,” “we,” “us,” or “our”).
 

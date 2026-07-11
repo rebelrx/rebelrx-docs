@@ -24,7 +24,6 @@ theme:
     - navigation.indexes
     - navigation.top
     - navigation.path
-    - navigation.tabs
     - navigation.footer
     - toc.follow
     - search.suggest
