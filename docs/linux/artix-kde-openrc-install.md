@@ -1,3 +1,8 @@
+---
+description: >-
+  Step-by-step manual installation of Artix Linux with OpenRC, Btrfs subvolumes, zram, and KDE Plasma on AMD hardware.
+---
+
 # Artix Linux Manual Installation Guide
 
 **Target:** PC / Laptop (AMD Ryzen processor and AMD GPU)
@@ -32,9 +37,8 @@ sudo dd bs=4M if=artix-base-openrc-YYYYMMDD-x86_64.iso of=/dev/sdX status=progre
 
 Boot the PC from USB. Here's a reference list of Boot Menu keys for various manufacturers:
 
-|     |     |     |
-| :--- | :--- | :--- |
 | Manufacturer | Boot Menu Key | BIOS/UEFI Key |
+| :--- | :--- | :--- |
 | **Acer** | F12, Esc, F9 | F2, Delete |
 | **Asus** | F8, Esc | F2, Delete |
 | **Dell** | F12 | F2  |

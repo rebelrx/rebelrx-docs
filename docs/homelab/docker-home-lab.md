@@ -1,3 +1,8 @@
+---
+description: >-
+  Build a clean, reproducible Docker Compose homelab on bare-metal Devuan — no systemd, no hypervisor overhead.
+---
+
 # 🐳 Docker Homelab (Devuan + Compose)
 
 A practical guide to running a **clean, reproducible Docker homelab** on bare metal using Devuan and Docker Compose.
@@ -40,7 +45,7 @@ But for most homelabs, it introduces unnecessary complexity.
 - Internet access
 - Devuan
 
-If you don't have a dedicated PC, you can purchase one of these inexpensive mini PC boxes that includes RAM and SSD to get started right away: [Beelink Mini S12](https://www.amazon.com/gp/product/B0BW8JSQCH/ref=ox_sc_saved_image_1?smid=A2TEGSI85MTM6G)
+If you don't have a dedicated PC, you can purchase one of these inexpensive mini PC boxes that includes RAM and SSD to get started right away: [Beelink Mini S12](https://www.amazon.com/dp/B0BW8JSQCH)
 
 If you don't have Devuan installed, see the [Devuan Linux Server Install Guide](../linux/devuan-server-install.md)
 

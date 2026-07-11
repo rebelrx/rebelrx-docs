@@ -1,3 +1,8 @@
+---
+description: >-
+  Curated lab testing platforms, a comprehensive annual lab panel framework, at-home monitoring tools, and practitioner-grade supplement access.
+---
+
 # Medical Resources
 
 A curated set of tools, platforms, and diagnostics to help you take control of your health.
@@ -17,6 +22,9 @@ It’s about:
 ### RebelRx Holistic Dispensary
 
 <https://us.fullscript.com/welcome/rebelrx>
+
+!!! note "Disclosure"
+    This is a RebelRx referral link. Purchases made through the dispensary may earn RebelRx a commission at no additional cost to you. See the [full disclosure](../disclaimer.md#affiliate-referral-disclosure).
 
 - Practitioner-grade supplements  
 - Curated protocols  

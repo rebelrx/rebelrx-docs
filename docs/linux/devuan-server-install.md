@@ -1,3 +1,8 @@
+---
+description: >-
+  Step-by-step Devuan Linux server installation with sysvinit, ext4, and a terminal/SSH-only setup — no systemd.
+---
+
 # Devuan Server Installation Guide
 
 **Target:** PC / Workstation (AMD Ryzen processor and NVIDIA GPU)
@@ -42,9 +47,8 @@ sudo dd if=devuan_excalibur_6.1.0_amd64_netinstall.iso of=/dev/sdX bs=4M status=
 
 Boot the PC from USB. Here's a reference list of Boot Menu keys for various manufacturers:
 
-|     |     |     |
-| :--- | :--- | :--- |
 | Manufacturer | Boot Menu Key | BIOS/UEFI Key |
+| :--- | :--- | :--- |
 | **Acer** | F12, Esc, F9 | F2, Delete |
 | **Asus** | F8, Esc | F2, Delete |
 | **Dell** | F12 | F2  |

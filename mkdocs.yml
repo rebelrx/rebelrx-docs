@@ -14,13 +14,19 @@ site_dir: site
 theme:
   name: material
   language: en
-  logo: assets/images/rebelrxlogo.jpg
+  logo: assets/images/rebelrxlogo.svg
+  favicon: assets/images/rebelrxfavicon.ico
   features:
     - navigation.indexes
     - navigation.top
     - navigation.path
+    - navigation.tabs
+    - navigation.footer
+    - navigation.instant
+    - toc.follow
     - search.suggest
     - search.highlight
+    - search.share
     - content.code.copy
   palette:
     - media: "(prefers-color-scheme)"

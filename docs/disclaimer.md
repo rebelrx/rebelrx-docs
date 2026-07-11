@@ -1,6 +1,6 @@
 # ⚠️ Disclaimer
 
-_Last updated: April 19, 2026_
+_Last updated: July 11, 2026_
 
 This site is operated by RebelRx Group LLC (“RebelRx,” “we,” “us,” or “our”).
 
@@ -87,6 +87,20 @@ We make no guarantees regarding:
 - Outcomes from using this information  
 
 Use of this site is at your own risk.
+
+---
+
+## 💸 Affiliate & Referral Disclosure {#affiliate-referral-disclosure}
+
+Some links on this site are referral or affiliate links, including the RebelRx Holistic Dispensary (Fullscript).
+
+This means:
+
+- RebelRx may earn a commission if you make a purchase through those links  
+- This comes at **no additional cost to you**  
+- Recommendations are based on genuine use and evaluation, not commission rates  
+
+We only link to products and services we would use ourselves.
 
 ---
 

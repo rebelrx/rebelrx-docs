@@ -1,3 +1,8 @@
+---
+description: >-
+  High-impact privacy-first replacements for Big Tech apps and services, organized by category with beginner-to-advanced tiers.
+---
+
 # 🔁 Privacy-Based App Recommendations
 
 High-impact replacements for common Big Tech services.
@@ -127,7 +132,7 @@ High-impact replacements for common Big Tech services.
 | Kindle ecosystem | [Calibre-Web](https://github.com/janeczku/calibre-web) / [Kavita](https://www.kavitareader.com/) | Self-hosted ebook libraries |
 | Audible / Podcasts apps | [Audiobookshelf](https://www.audiobookshelf.org/) | Self-hosted audiobooks + podcasts |
 | Adobe Reader | [Sumatra PDF](https://www.sumatrapdfreader.org/free-pdf-reader) | Lightweight, privacy-friendly |
-| Adobe Acrobat / CC | [BentoPDF](https://github.com/bentoml/BentoPDF) | Open/self-hosted PDF tools |
+| Adobe Acrobat / CC | [BentoPDF](https://github.com/alam00000/bentopdf) | Open/self-hosted PDF tools |
 | Paper clutter | [Paperless-ngx](https://docs.paperless-ngx.com/) | Document management system |
 
 ---

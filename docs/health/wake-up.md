@@ -1,3 +1,8 @@
+---
+description: >-
+  Documented lawsuits, investigations, and exposures most people never see — a tiered reading list on what you are actually being exposed to.
+---
+
 # 🗣️ Wake Up
 
 !!! danger "Wake up."
@@ -12,7 +17,7 @@
 ---
 
 !!! info "Start here"
-    These are not "conspiracy theories.""
+    These are not "conspiracy theories."
 
     These are lawsuits, investigations, regulatory failures, and documented exposures.
 
@@ -112,16 +117,16 @@
 
 ## 🧠 Final Thought
 
-    You don’t need to panic.
+You don’t need to panic.
 
-    But you should:
+But you should:
 
-    - Pay attention  
-    - Question defaults  
-    - Stop assuming everything is safe because it’s normalized  
+- Pay attention  
+- Question defaults  
+- Stop assuming everything is safe because it’s normalized  
 
-    Most people will ignore this.
+Most people will ignore this.
 
-    That’s why nothing changes.
+That’s why nothing changes.
 
-    You don’t have to.
+You don’t have to.

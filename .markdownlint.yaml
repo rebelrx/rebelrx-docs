@@ -17,3 +17,6 @@ MD040: false
 
 # Allow duplicate headings (needed for structured guides / translations)
 MD024: false
+
+# MkDocs Material compatibility
+MD046: false  # admonition bodies are 4-space indented by design

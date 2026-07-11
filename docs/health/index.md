@@ -1,3 +1,8 @@
+---
+description: >-
+  Root-cause, evidence-aware health education: nutrition, environment, labs, and trusted resources for taking back your health.
+---
+
 # 🧬 Health
 
 Educational content for finding real trusted medical resources, rethinking mainstream clinical disinformation, and taking back your health.
@@ -6,7 +11,7 @@ RebelRx Health is built around a simple principle:
 
 > Address root causes and not just symptoms to establish your health for the long-term.
 
-Modern "healthcare" is focused around acute care, pushing symptomatic treatment, and sometimes even directly poisoning the population.
+Modern "healthcare" is built around acute care and symptom management — while the same system too often tolerates, and even profits from, the very exposures driving chronic disease.
 
 ---
 
@@ -77,10 +82,10 @@ If you're new, follow this path:
 
 RebelRx approach:
 
-    - Evidence-aware (not blindly “evidence-based”)  
-    - Skeptical of financial and institutional incentives  
-    - Focused on long-term outcomes, not short-term fixes  
-    - Practical > theoretical  
+- Evidence-aware (not blindly “evidence-based”)  
+- Skeptical of financial and institutional incentives  
+- Focused on long-term outcomes, not short-term fixes  
+- Practical > theoretical  
 
 ---
 

@@ -1,3 +1,8 @@
+---
+description: >-
+  Why Linux is the last major operating system that lets you opt out — control, transparency, core concepts, hardware, and what an install actually looks like.
+---
+
 # 🐧 Why Linux
 
 Most people don’t choose an operating system.
@@ -169,27 +174,25 @@ Windows and macOS instead favor the graphical user interface (GUI) for everyday 
 
 !!! tip "CLI Learning Curve (What to Expect)"
 
-```
-If you're coming from Windows or macOS, the CLI will feel uncomfortable at first.
+    If you're coming from Windows or macOS, the CLI will feel uncomfortable at first.
 
-This is normal.
+    This is normal.
 
-Early on, you may find yourself:
+    Early on, you may find yourself:
 
-- Copy/pasting commands you don’t fully understand  
-- Searching for basic tasks (installing apps, navigating files)  
-- Making small mistakes that break things temporarily  
+    - Copy/pasting commands you don’t fully understand  
+    - Searching for basic tasks (installing apps, navigating files)  
+    - Making small mistakes that break things temporarily  
 
-This phase passes quickly.
+    This phase passes quickly.
 
-Within a short time, the CLI becomes:
+    Within a short time, the CLI becomes:
 
-- Faster than point-and-click workflows  
-- More precise and repeatable  
-- A core advantage of using Linux  
+    - Faster than point-and-click workflows  
+    - More precise and repeatable  
+    - A core advantage of using Linux  
 
-> The goal is not to memorize commands, but to understand how the system works.
-```
+    > The goal is not to memorize commands, but to understand how the system works.
 
 ---
 
@@ -418,19 +421,17 @@ However, compatibility depends on:
 
 !!! warning "NVIDIA GPU Compatibility"
 
-```
-NVIDIA GPUs can require additional setup on Linux.
+    NVIDIA GPUs can require additional setup on Linux.
 
-Unlike most hardware, NVIDIA drivers are not fully open source and often need:
+    Unlike most hardware, NVIDIA drivers are not fully open source and often need:
 
-- Manual driver installation  
-- Matching driver versions with your kernel  
-- Extra configuration for Wayland or desktop environments  
+    - Manual driver installation  
+    - Matching driver versions with your kernel  
+    - Extra configuration for Wayland or desktop environments  
 
-In contrast, AMD GPUs typically work out of the box with open-source drivers.
+    In contrast, AMD GPUs typically work out of the box with open-source drivers.
 
-> If you are new to Linux, AMD hardware is generally the smoother experience.
-```
+    > If you are new to Linux, AMD hardware is generally the smoother experience.
 
 ---
 
@@ -500,23 +501,21 @@ Depending on distro, expect:
 
 !!! warning "Disk Partitioning Risk"
 
-```
-Linux installs often require manual disk partitioning.
+    Linux installs often require manual disk partitioning.
 
-This is one of the few steps where you can accidentally:
+    This is one of the few steps where you can accidentally:
 
-- Delete existing data  
-- Overwrite another operating system  
-- Misconfigure your boot setup  
+    - Delete existing data  
+    - Overwrite another operating system  
+    - Misconfigure your boot setup  
 
-Always:
+    Always:
 
-- Back up important data before installing  
-- Double-check selected disks and partitions  
-- Understand whether you are replacing or dual-booting  
+    - Back up important data before installing  
+    - Double-check selected disks and partitions  
+    - Understand whether you are replacing or dual-booting  
 
-> Partitioning is powerful—but it assumes you know what you're doing.
-```
+    > Partitioning is powerful—but it assumes you know what you're doing.
 
 ---
 

@@ -1,6 +1,6 @@
 # 🔒 Privacy Policy
 
-_Last updated: April 19, 2026_
+_Last updated: July 11, 2026_
 
 RebelRx Docs (“this site”) is operated by RebelRx Group LLC (“RebelRx,” “we,” “us,” or “our”).
 
@@ -36,20 +36,19 @@ We do **not**:
 
 ### 🌐 Server & Hosting Data
 
-Like all websites, basic technical data may be processed by the hosting provider:
+Like all websites, the web server that delivers this site processes basic technical data:
 
 - IP address  
-- Browser type  
+- Browser type (user agent)  
 - Device type  
 - Request timestamps  
 
-This data is:
+This site is self-hosted on RebelRx infrastructure. Standard server access logs containing this data:
 
-- Used **only for delivering the website**  
-- Not used for tracking or profiling  
-- Not controlled or stored by RebelRx  
-
-This data is processed by the hosting provider and is not accessed, stored, or used by RebelRx.
+- Are used **only for site operations, troubleshooting, and abuse prevention**  
+- Are not used for tracking, profiling, or analytics  
+- Are automatically rotated and deleted on a routine schedule  
+- Are never shared with or sold to third parties  
 
 ---
 
@@ -65,6 +64,10 @@ If any cookies are present, they are:
 
 - Strictly necessary for basic site functionality  
 - Set by your browser or hosting layer (not by RebelRx)
+
+### 💾 Local Storage
+
+Your preferences (such as light/dark theme) are stored locally in your browser using `localStorage`. This data never leaves your device and is never transmitted to RebelRx.
 
 ---
 
