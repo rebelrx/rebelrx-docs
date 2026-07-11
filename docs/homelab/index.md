@@ -112,7 +112,6 @@ It avoids:
 
 ## 🚧 Guides In Development
 
-- Nginx Proxy Manager  
 - Self-Hosted Retro Gaming with RomM  
 
 ---

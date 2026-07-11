@@ -88,6 +88,7 @@ nav:
       - Overview: homelab/index.md
       - Docker Compose: homelab/docker-home-lab.md
       - Tailscale VPN: homelab/tailscale.md
+      - NPM Reverse Proxy: homelab/nginx-proxy-manager.md
       - NAS Mounting: homelab/nas-mounting.md
       - Backup and Recovery: homelab/backup-and-recovery.md
   - Privacy:
