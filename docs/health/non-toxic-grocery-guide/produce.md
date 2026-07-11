@@ -1,3 +1,8 @@
+---
+description: >-
+  Choosing produce with fewer pesticide residues — when organic matters most, when conventional is fine, and proper washing technique.
+---
+
 # 🍎 Produce
 
 ## 🌿 High Priority Organic

@@ -1,3 +1,8 @@
+---
+description: >-
+  A decision framework for every aisle — how to prioritize spending, read labels, and choose when the ideal option isn't available.
+---
+
 # 🧠 Grocery Core Philosophy
 
 > The fewer ingredients, the better.

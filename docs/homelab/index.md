@@ -1,3 +1,8 @@
+---
+description: >-
+  Build a sovereign, privacy-first homelab: Docker services, private networking with Tailscale, reverse proxy, NAS storage, and tested backups.
+---
+
 # 🏠 Homelab
 
 Guides for building a sovereign, privacy-first homelab you fully control.

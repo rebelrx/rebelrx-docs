@@ -10,6 +10,13 @@ repos:
       - id: detect-private-key
       - id: check-added-large-files
 
+  - repo: https://github.com/Yelp/detect-secrets
+    rev: v1.5.0
+    hooks:
+      - id: detect-secrets
+        args: ['--baseline', '.secrets.baseline']
+        exclude: '(^|/).+\.(es|ru|zh)\.md$'
+
   - repo: https://github.com/igorshubovych/markdownlint-cli
     rev: v0.41.0
     hooks:
@@ -22,7 +29,7 @@ repos:
       - id: codespell
         exclude: '(^|/).+\.(es|ru|zh)\.md$'
         args:
-          - --ignore-words-list=teh,ans,fo,transferrin
+          - --ignore-words=.codespell-ignore-words.txt
           - --skip=site,.git,venv,.venv,node_modules
 
   - repo: local
@@ -32,8 +39,8 @@ repos:
         entry: mkdocs build --strict
         language: python
         additional_dependencies:
-          - mkdocs
-          - mkdocs-material
-          - mkdocs-static-i18n
+          - mkdocs<2
+          - mkdocs-material<10
+          - mkdocs-static-i18n<2
         pass_filenames: false
         stages: [pre-push]

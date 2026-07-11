@@ -1,3 +1,8 @@
+---
+description: >-
+  Who's behind RebelRx Docs — a Doctor of Pharmacy and self-taught Linux/self-hosting enthusiast documenting the path to digital and physical sovereignty.
+---
+
 # 📚 About
 
 RebelRx Docs is a public documentation site focused on building sovereign systems, protecting privacy, and improving long-term health through practical, real-world guidance.

@@ -1,3 +1,8 @@
+---
+description: >-
+  Privacy isn't about hiding — it's about power. What surveillance-based platforms actually collect, and why 'nothing to hide' misses the point.
+---
+
 # 🔍 Why Privacy Matters
 
 Privacy isn’t about “having something to hide.”  

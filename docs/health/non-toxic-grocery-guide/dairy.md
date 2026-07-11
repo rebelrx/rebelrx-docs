@@ -1,3 +1,8 @@
+---
+description: >-
+  Choosing better dairy — quality markers, what processing changes, and how to source it well.
+---
+
 # 🥛 Dairy (If Tolerated)
 
 Dairy quality varies significantly.

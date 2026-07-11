@@ -1,3 +1,8 @@
+---
+description: >-
+  Sourcing cleaner meat, poultry, eggs, and seafood — labels that mean something, labels that don't, and budget-friendly priorities.
+---
+
 # 🥩 Protein Sources
 
 ## 🥚 Eggs

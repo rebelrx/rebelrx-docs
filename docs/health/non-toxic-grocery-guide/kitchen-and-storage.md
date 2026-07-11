@@ -1,3 +1,8 @@
+---
+description: >-
+  Non-toxic cookware and food storage — what to use instead of nonstick and plastic, and what to replace first.
+---
+
 # 🧊 Storage & Kitchen (Non-Toxic Setup)
 
 ## 🫙 Containers

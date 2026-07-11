@@ -1,3 +1,8 @@
+---
+description: >-
+  What's actually in tap water and how to filter it — practical options by budget, from pitcher filters to whole-house systems.
+---
+
 # 🚰 Water Filtration
 
 Your water source is one of the most consistent daily exposures.

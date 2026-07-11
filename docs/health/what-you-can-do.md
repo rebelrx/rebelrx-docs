@@ -1,3 +1,8 @@
+---
+description: >-
+  Practical steps to reduce toxic exposures and rebuild health fundamentals — prioritized actions you can start this week.
+---
+
 # 🛠️ What To Do About It
 
 !!! success "You’re not powerless"

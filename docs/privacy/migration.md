@@ -1,3 +1,8 @@
+---
+description: >-
+  A phased, realistic plan for leaving Big Tech platforms — ordered steps, no cold-turkey cutover, no abandoned migrations.
+---
+
 # 🏗️ Migration Guide
 
 How to move away from Big Tech **without breaking your workflow**.

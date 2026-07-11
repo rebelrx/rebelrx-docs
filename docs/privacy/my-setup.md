@@ -1,3 +1,8 @@
+---
+description: >-
+  The complete RebelRx stack — hardware, operating systems, self-hosted services, and the privacy tools actually in daily use.
+---
+
 # 🧪 RebelRx Privacy Setup
 
 This is my own real-world, privacy-first stack designed for **control, performance, and usability**.

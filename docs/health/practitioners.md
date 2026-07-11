@@ -1,3 +1,8 @@
+---
+description: >-
+  Practitioners and clinical educators focused on root-cause medicine, metabolic health, and transparent reasoning.
+---
+
 # Practitioner Directory
 
 A curated list of **independent clinicians** aligned with the RebelRx philosophy.

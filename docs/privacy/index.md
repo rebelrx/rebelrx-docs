@@ -1,3 +1,8 @@
+---
+description: >-
+  A practical path out of surveillance-based platforms — why privacy matters, which apps to switch to, and how to migrate without disruption.
+---
+
 # 🛡️ Privacy-First Living
 
 A practical guide to reducing reliance on Big Tech (Google, Apple, etc.) and taking control of your data without breaking your workflow.

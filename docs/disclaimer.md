@@ -1,6 +1,11 @@
+---
+description: >-
+  RebelRx Docs disclaimer — educational content, not medical, legal, or professional advice, plus affiliate and referral disclosures.
+---
+
 # ⚠️ Disclaimer
 
-_Last updated: April 19, 2026_
+_Last updated: July 11, 2026_
 
 This site is operated by RebelRx Group LLC (“RebelRx,” “we,” “us,” or “our”).
 

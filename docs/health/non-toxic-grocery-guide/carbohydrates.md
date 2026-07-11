@@ -1,3 +1,8 @@
+---
+description: >-
+  Smarter carbohydrate choices — grains, breads, and starches with fewer additives and better preparation methods.
+---
+
 # 🌾 Carbohydrates
 
 Carbohydrates (carbs) are not inherently “good” or “bad.”

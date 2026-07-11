@@ -1,3 +1,8 @@
+---
+description: >-
+  Linux guides for people who want control: why Linux, Artix desktop installation, and Devuan server setup — all without systemd.
+---
+
 # 🐧 Linux
 
 Guides for building clean, stable, and sovereign Linux systems across desktops, laptops, and servers.

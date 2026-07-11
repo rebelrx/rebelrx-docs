@@ -1,3 +1,8 @@
+---
+description: >-
+  Navigating packaged foods — the additives worth avoiding, label-reading shortcuts, and acceptable convenience options.
+---
+
 # 🧴 Packaged Foods (Minimal Use)
 
 Packaged foods are not inherently bad, but most are highly processed and low quality.

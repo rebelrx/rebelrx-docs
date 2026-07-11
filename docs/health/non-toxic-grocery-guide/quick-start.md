@@ -1,3 +1,8 @@
+---
+description: >-
+  The 20% of grocery changes that deliver 80% of the benefit — start reducing toxic exposure on your very next shopping trip.
+---
+
 # 🌱 Non-Toxic Grocery Guide
 
 Modern food systems are not optimized for human health. They are optimized for:

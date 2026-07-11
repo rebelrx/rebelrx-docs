@@ -1,3 +1,8 @@
+---
+description: >-
+  Practical guides for Linux, self-hosting, privacy, and evidence-aware health — take back control of your tools, your data, and your health.
+---
+
 # RebelRx Docs
 
 Welcome to RebelRx Docs, a source for practical guides on building sovereign systems, protecting your privacy, and taking control of your health.

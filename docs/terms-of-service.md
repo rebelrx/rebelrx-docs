@@ -1,3 +1,8 @@
+---
+description: >-
+  Terms of service for using RebelRx Docs.
+---
+
 # 📜 Terms of Service
 
 _Last updated: July 11, 2026_

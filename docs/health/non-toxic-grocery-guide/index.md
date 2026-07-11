@@ -1,3 +1,8 @@
+---
+description: >-
+  A category-by-category grocery guide to reducing pesticides, additives, seed oils, and packaging chemicals — without perfectionism or panic.
+---
+
 # Non-Toxic Grocery Guide
 
 A practical framework for buying better food, reducing toxic exposure, and keeping grocery decisions simple.

@@ -1,3 +1,8 @@
+---
+description: >-
+  Cleaner pantry staples — sauces, spices, canned goods, and baking basics without the additive load.
+---
+
 # 🧂 Pantry Staples
 
 ## 🍯 Safer Sweeteners

@@ -380,7 +380,7 @@ In the admin console → **Access Controls**, ACLs are defined as JSON. A simple
 ```bash
 tailscale status        # who's connected, and how (direct vs relayed)
 tailscale netcheck      # NAT type, nearest DERP relay, port mapping info
-tailscale ping server-msa2   # verify connectivity + path to a node
+tailscale ping machinename   # verify connectivity + path to a node
 ```
 
 Common issues:

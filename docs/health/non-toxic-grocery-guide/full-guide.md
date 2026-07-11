@@ -1,3 +1,8 @@
+---
+description: >-
+  The complete non-toxic grocery guide on a single page — every category, printable and searchable.
+---
+
 # 🌱 Non-Toxic Grocery Guide
 
 Modern food systems are not optimized for human health. They are optimized for:

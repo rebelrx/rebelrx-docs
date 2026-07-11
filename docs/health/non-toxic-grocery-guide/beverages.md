@@ -1,3 +1,8 @@
+---
+description: >-
+  What you drink matters as much as what you eat — better choices for coffee, tea, water, and everything else in the cart.
+---
+
 # 🥤 Beverages
 
 ## 🚰 Water

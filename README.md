@@ -19,12 +19,32 @@ Practical guides for Linux, self-hosting, privacy, homelab infrastructure, and e
 - 🇪🇸 Spanish: <https://docs.rebelrx.tech/es/>
 - 🇨🇳 Chinese: <https://docs.rebelrx.tech/zh/>
 
+> **Note:** Overview and reference pages are fully translated. Long-form
+> technical guides (installation walkthroughs, homelab guides) are currently
+> English-only and display in English on all language sites.
+
 ## Topics
 
-- Linux
-- Homelab
-- Privacy
-- Health
+- **Linux** — Why Linux, Artix desktop install, Devuan server install
+- **Homelab** — Docker Compose, Nginx Proxy Manager, Tailscale VPN, NAS mounting, backup & recovery
+- **Privacy** — Why privacy matters, app recommendations, mobile privacy, migration guide
+- **Health** — Evidence-aware health education and the Non-Toxic Grocery Guide
+
+## 🛠️ Building Locally
+
+```bash
+pip install mkdocs-material mkdocs-static-i18n
+mkdocs serve        # live preview at http://127.0.0.1:8000
+mkdocs build        # static output to site/
+```
+
+Pre-commit hooks (markdownlint, codespell, strict build) run automatically on
+commit if you have [pre-commit](https://pre-commit.com/) installed:
+
+```bash
+pip install pre-commit
+pre-commit install
+```
 
 ## About
 

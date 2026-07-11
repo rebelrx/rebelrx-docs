@@ -1,3 +1,8 @@
+---
+description: >-
+  Which cooking fats to use and which to avoid — stable traditional fats versus industrial seed oils, with practical swaps.
+---
+
 # 🧈 Fats & Oils
 
 ## 🍳 Cooking Oils
