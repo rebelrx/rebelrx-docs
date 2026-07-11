@@ -110,16 +110,9 @@ It avoids:
 
 ---
 
-## 📚 Guides
-
-- [Home Lab + Docker Self-Hosting](docker-home-lab.md)
-
----
-
 ## 🚧 Guides In Development
 
 - Mounting NAS Partitions  
-- VPN Tunnel with Tailscale  
 - Nginx Proxy Manager  
 - Self-Hosted Retro Gaming with RomM  
 
@@ -127,7 +120,7 @@ It avoids:
 
 ## 🧠 Final Thought
 
-Cloud platforms optimize for scale.
+Cloud platforms optimize for scale and data aggregation.
 
 Your homelab should optimize for:
 
