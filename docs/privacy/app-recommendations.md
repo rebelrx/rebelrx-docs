@@ -99,6 +99,16 @@ High-impact replacements for common Big Tech services.
 
 ---
 
+## 🔑 Two-Factor Authentication
+
+| Replace | With | Why |
+|--------|------|-----|
+| Google Authenticator / Authy | [Aegis](https://getaegis.app/) (Android) / [Ente Auth](https://ente.io/auth/) (cross-platform) | Open-source, encrypted exportable backups, no cloud lock-in |
+
+> 💡 Google Authenticator syncs your 2FA seeds to your Google account; Authy is closed-source and suffered a 2024 breach. Your second factor deserves better. See the [Mobile Privacy guide](mobile.md) for details.
+
+---
+
 ## 🌍 DNS & Ad Blocking
 
 | Replace | With | Why |
@@ -169,6 +179,7 @@ High-impact replacements for common Big Tech services.
 - DuckDuckGo
 - Signal
 - Bitwarden / Proton Pass
+- Aegis / Ente Auth (2FA)
 - Proton Mail / Tuta
 - ONLYOFFICE
 
@@ -197,3 +208,4 @@ High-impact replacements for common Big Tech services.
 - Nginx Proxy Manager
 - Tailscale / Headscale
 - Forgejo
+- GrapheneOS (see [Mobile Privacy](mobile.md))

@@ -5,7 +5,7 @@ description: >-
 
 # 💾 Backup & Recovery (Docker Homelab)
 
-A practical guide to building a **layered, tested backup system** for the [Docker homelab](docker-home-lab.md) — and proving it works before you need it.
+A practical guide to building a **layered, tested backup system** for the [Docker homelab](docker-home-lab.md) and proving it works before you need it.
 
 ---
 
@@ -293,7 +293,7 @@ docker rm -f pg-restore-test
 
 ### 4. Rehearse the Disaster on Paper
 
-Ask: *the server is gone — what's the sequence?* You should be able to write it from memory:
+Ask: *the server is gone; what's the sequence?* You should be able to write it from memory:
 
 1. Install Devuan → [server guide](../linux/devuan-server-install.md)
 2. Install Docker → [homelab guide](docker-home-lab.md)
@@ -326,7 +326,7 @@ uptime_kuma:
 
 ## 🚫 What Not To Do
 
-- Don't back up live database files — dump first
+- Don't back up live database files; dump first
 - Don't give backup containers write access to source data
 - Don't keep encryption keys only on the machine being backed up
 - Don't let RAID or NAS redundancy masquerade as backup — it protects against disk failure, not deletion, corruption, or ransomware

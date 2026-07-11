@@ -31,10 +31,11 @@ It’s about small victories towards the next step:
 
 Follow in order:
 
-1. **Why Privacy Matters** → Understand the *why*
-2. **App Recommendations** → Identify replacements
-3. **Migration Guide** → Move safely
-4. **RebelRx Setup** → See it in practice
+1. [Why Privacy Matters](why-privacy.md)
+2. [App Recommendations](app-recommendations.md)
+3. [Mobile Privacy](mobile.md)
+4. [Migration Guide](migration.md)
+5. [RebelRx Setup](my-setup.md)
 
 ---
 

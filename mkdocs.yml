@@ -93,6 +93,7 @@ nav:
       - Overview: privacy/index.md
       - Why Privacy Matters: privacy/why-privacy.md
       - Privacy-Based App Recommendations: privacy/app-recommendations.md
+      - Mobile Privacy: privacy/mobile.md
       - Migration Guide: privacy/migration.md
       - RebelRx Setup: privacy/my-setup.md
   - Health:
