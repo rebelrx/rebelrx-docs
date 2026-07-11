@@ -1,6 +1,6 @@
 # 🔒 Privacy Policy
 
-_Last updated: July 11, 2026_
+_Last updated: April 19, 2026_
 
 RebelRx Docs (“this site”) is operated by RebelRx Group LLC (“RebelRx,” “we,” “us,” or “our”).
 
