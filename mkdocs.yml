@@ -88,6 +88,7 @@ nav:
       - Overview: homelab/index.md
       - Docker Compose: homelab/docker-home-lab.md
       - Tailscale VPN: homelab/tailscale.md
+      - Backup and Recovery: homelab/backup-and-recovery.md
   - Privacy:
       - Overview: privacy/index.md
       - Why Privacy Matters: privacy/why-privacy.md
