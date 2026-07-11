@@ -112,7 +112,6 @@ It avoids:
 
 ## 🚧 Guides In Development
 
-- Mounting NAS Partitions  
 - Nginx Proxy Manager  
 - Self-Hosted Retro Gaming with RomM  
 
