@@ -19,10 +19,6 @@ Practical guides for Linux, self-hosting, privacy, homelab infrastructure, and e
 - 🇪🇸 Spanish: <https://docs.rebelrx.tech/es/>
 - 🇨🇳 Chinese: <https://docs.rebelrx.tech/zh/>
 
-> **Note:** Overview and reference pages are fully translated. Long-form
-> technical guides (installation walkthroughs, homelab guides) are currently
-> English-only and display in English on all language sites.
-
 ## Topics
 
 - **Linux** — Why Linux, Artix desktop install, Devuan server install
