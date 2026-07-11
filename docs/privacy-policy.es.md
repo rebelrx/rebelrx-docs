@@ -1,121 +1,129 @@
+---
+description: >-
+  Política de privacidad de RebelRx Docs — qué recopila este sitio y qué no. Spoiler: sin rastreo, sin analíticas, sin venta de datos.
+---
+
 <!--
 Source: privacy-policy.md
-Last translated: 2026-04
+Last translated: 2026-07
 -->
 
 # 🔒 Política de privacidad
 
-*Última actualización: 19 de abril de 2026*
+_Última actualización: 11 de julio de 2026_
 
-RebelRx Docs (“este sitio”) es operado por RebelRx Group LLC (“RebelRx”, “nosotros”, “nos” o “nuestro”).
+RebelRx Docs ("este sitio") es operado por RebelRx Group LLC ("RebelRx", "nosotros", "nos" o "nuestro").
 
-RebelRx Docs está diseñado con una **filosofía de prioridad en la privacidad**.
+RebelRx Docs está diseñado con una **filosofía de privacidad primero**.
 
-Esta Política de privacidad explica qué datos se recopilan (y cuáles no) cuando utilizas este sitio.
+Esta Política de privacidad explica qué datos se recopilan (y cuáles no) cuando usas este sitio.
 
 ---
 
-## 🧭 Resumen
+## 🧭 Visión general
 
-> Este sitio no te rastrea, no crea perfiles sobre ti ni vende tus datos.
+> Este sitio no te rastrea, no te perfila y no vende tus datos.
 
-* Sin plataformas de analítica
-* Sin rastreadores publicitarios
-* Sin perfilado de comportamiento
-* Sin intermediarios de datos
+- Sin plataformas de analítica  
+- Sin rastreadores publicitarios  
+- Sin perfilado de comportamiento  
+- Sin comercio de datos  
 
 ---
 
 ## 📊 Información que recopilamos
 
-### ❌ Sin recopilación de datos personales
+### ❌ Ninguna recopilación de datos personales
 
-Nosotros **no**:
+**No**:
 
-* Recopilamos información personal
-* Requerimos cuentas de usuario
-* Procesamos formularios
-* Almacenamos datos proporcionados por usuarios
+- Recopilamos información personal  
+- Requerimos cuentas de usuario  
+- Procesamos envíos de formularios  
+- Almacenamos datos proporcionados por los usuarios  
 
 ---
 
-### 🌐 Datos de servidor y alojamiento
+### 🌐 Datos del servidor y del alojamiento
 
-Como todos los sitios web, el proveedor de alojamiento puede procesar datos técnicos básicos:
+Como todos los sitios web, el servidor que entrega este sitio procesa datos técnicos básicos:
 
-* Dirección IP
-* Tipo de navegador
-* Tipo de dispositivo
-* Marcas de tiempo de las solicitudes
+- Dirección IP  
+- Tipo de navegador (user agent)  
+- Tipo de dispositivo  
+- Marcas de tiempo de las peticiones  
 
-Estos datos:
+Este sitio está autoalojado en la infraestructura de RebelRx. Los logs de acceso estándar del servidor que contienen estos datos:
 
-* Se utilizan **solo para ofrecer el sitio web**
-* No se usan para rastreo ni perfilado
-* No son controlados ni almacenados por RebelRx
-
-Estos datos son procesados por el proveedor de alojamiento y no son accedidos, almacenados ni utilizados por RebelRx.
+- Se usan **únicamente para la operación del sitio, la resolución de problemas y la prevención de abusos**  
+- No se usan para rastreo, perfilado ni analítica  
+- Se rotan y eliminan automáticamente según un calendario rutinario  
+- Nunca se comparten con terceros ni se venden  
 
 ---
 
 ## 🍪 Cookies
 
-Este sitio **no utiliza cookies** para:
+Este sitio **no** usa cookies para:
 
-* Rastreo
-* Analítica
-* Publicidad
+- Rastreo  
+- Analítica  
+- Publicidad  
 
-Si existen cookies, son:
+Si existe alguna cookie, es:
 
-* Estrictamente necesarias para el funcionamiento básico del sitio
-* Establecidas por tu navegador o la capa de alojamiento (no por RebelRx)
+- Estrictamente necesaria para la funcionalidad básica del sitio  
+- Establecida por tu navegador o por la capa de alojamiento (no por RebelRx)
+
+### 💾 Almacenamiento local
+
+Tus preferencias (como el tema claro/oscuro) se guardan localmente en tu navegador mediante `localStorage`. Estos datos nunca salen de tu dispositivo y nunca se transmiten a RebelRx.
 
 ---
 
-## 🔗 Enlaces a terceros
+## 🔗 Enlaces de terceros
 
 Este sitio puede contener enlaces a sitios web externos.
 
-RebelRx **no es responsable** de las prácticas de privacidad de esos sitios.
+RebelRx **no es responsable** de las prácticas de privacidad de esos sitios.  
 Debes revisar sus políticas por separado.
 
 ---
 
 ## 🛡️ Compartición de datos
 
-Nosotros **no**:
+**No**:
 
-* Vendemos datos
-* Compartimos datos
-* Transferimos datos a terceros
+- Vendemos datos  
+- Compartimos datos  
+- Transferimos datos a terceros  
 
 ---
 
 ## ⚖️ Tus derechos
 
-Dependiendo de tu jurisdicción (por ejemplo, GDPR, CCPA), puedes tener derechos relacionados con los datos personales.
+Según tu jurisdicción (p. ej., RGPD, CCPA), puedes tener derechos relacionados con los datos personales.
 
 Sin embargo:
 
-> Dado que este sitio no recopila ni almacena datos personales, no hay nada a lo que acceder, modificar o eliminar.
+> Como este sitio no recopila ni almacena datos personales, no hay nada que acceder, modificar o eliminar.
 
 ---
 
 ## 🔐 Seguridad
 
-Debido a que no recopilamos ni almacenamos datos de usuarios:
+Como no recopilamos ni almacenamos datos de los usuarios:
 
-* No hay datos personales en riesgo de filtración
-* No existen bases de datos de información de usuarios
+- No hay datos personales en riesgo de filtración  
+- No existen bases de datos con información de usuarios  
 
 ---
 
 ## 🧾 Cambios en esta política
 
-Esta política puede actualizarse si cambia la funcionalidad del sitio.
+Esta política puede actualizarse si la funcionalidad del sitio cambia.
 
-La fecha de “Última actualización” reflejará cualquier revisión.
+La fecha de "Última actualización" reflejará cualquier revisión.
 
 ---
 
@@ -123,16 +131,16 @@ La fecha de “Última actualización” reflejará cualquier revisión.
 
 Para preguntas sobre esta Política de privacidad:
 
-**RebelRx Group LLC**
+**RebelRx Group LLC**  
 [rebelrxgroup@pm.me](mailto:rebelrxgroup@pm.me)
 
 ---
 
-## 🧠 Resumen en lenguaje sencillo
+## 🧠 Resumen en lenguaje llano
 
-* Sin rastreo
-* Sin cookies (más allá de la funcionalidad básica)
-* Sin analítica
-* Sin recopilación de datos personales
+- Sin rastreo  
+- Sin cookies (más allá de la funcionalidad básica)  
+- Sin analíticas  
+- Sin recopilación de datos personales  
 
-> Usa el sitio libremente — no se está registrando nada sobre ti.
+> Usa el sitio con libertad — no se está registrando nada sobre ti.

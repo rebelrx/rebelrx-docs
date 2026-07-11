@@ -1,6 +1,11 @@
+---
+description: >-
+  Guías prácticas de Linux, autoalojamiento, privacidad y salud con base en la evidencia — recupera el control de tus herramientas, tus datos y tu salud.
+---
+
 <!--
 Source: index.md
-Last translated: 2026-04
+Last translated: 2026-07
 -->
 
 # RebelRx Docs
@@ -9,38 +14,38 @@ Bienvenido a RebelRx Docs, una fuente de guías prácticas para construir sistem
 
 ---
 
-## ⚠️ Principio Fundamental
+## ⚠️ Principio fundamental
 
-> Si no controlas tus herramientas, tus datos y tus entradas, alguien más lo hace.
+> Si no controlas tus herramientas, tus datos y lo que entra en tu cuerpo, otro lo hace por ti.
 
 RebelRx Docs existe para ayudarte a recuperar ese control.
 
 ---
 
-## 🧭 Qué Cubre Este Sitio
+## 🧭 Qué cubre este sitio
 
 RebelRx Docs ofrece una colección curada de:
 
-- **Guías de Linux** → Sistemas operativos limpios y controlables para escritorio y servidor  
-- **Homelab** → Infraestructura autoalojada que tú posees y mantienes  
-- **Privacidad** → Reducir la dependencia de plataformas basadas en vigilancia  
-- **Salud** → Educación basada en evidencia y enfocada en la causa raíz  
+- **Guías de Linux** → Sistemas operativos alternativos, limpios y controlables, para escritorio y servidor
+- **Homelab** → Infraestructura autoalojada que posees y mantienes tú
+- **Privacidad** → Reducir la dependencia de plataformas basadas en la vigilancia  
+- **Salud** → Educación con base en la evidencia y centrada en las causas raíz  
 
 ---
 
 ## 👤 Acerca de
 
-Estas guías fueron desarrolladas a través de:
+Estas guías se construyeron a base de:
 
-- Investigación profunda  
+- Investigación a fondo  
 - Experiencia en la industria  
 - Prueba, error e iteración  
 
-Soy **Doctor en Farmacia (PharmD) y Farmacéutico Registrado (RPh)** con años de experiencia en la industria farmacéutica, combinado con una formación autodidacta en Linux, self-hosting y sistemas enfocados en la privacidad.
+Soy **Doctor en Farmacia (PharmD) y Farmacéutico Colegiado (RPh)** con años en la industria farmacéutica, combinados con una formación autodidacta en Linux, autoalojamiento y sistemas centrados en la privacidad.
 
 ---
 
-## 📂 Explorar RebelRx Docs
+## 📂 Explora RebelRx Docs
 
 - [Linux](linux/index.md)  
 - [Homelab](homelab/index.md)  
@@ -49,16 +54,16 @@ Soy **Doctor en Farmacia (PharmD) y Farmacéutico Registrado (RPh)** con años d
 
 ---
 
-## ⭐ Guías Destacadas
+## ⭐ Guías destacadas
 
 - [Guía de instalación manual de escritorio Artix Linux](linux/artix-kde-openrc-install.md)  
 - [Guía de instalación de servidor Devuan Linux](linux/devuan-server-install.md)  
-- [Recomendaciones de aplicaciones enfocadas en privacidad y autoalojadas](privacy/app-recommendations.md)  
-- [Guía de alimentos no tóxicos](health/non-toxic-grocery-guide/full-guide.md)  
+- [Recomendaciones de apps centradas en la privacidad y autoalojadas](privacy/app-recommendations.md)  
+- [Guía de la compra no tóxica](health/non-toxic-grocery-guide/full-guide.md)  
 
 ---
 
-## 🧠 Reflexión Final
+## 🧠 Reflexión final
 
 Los sistemas modernos están optimizados para la escala, el control y la extracción de datos.
 
@@ -70,16 +75,16 @@ Recuperemos nuestra:
 
 ## 📬 Contacto
 
-¿Tienes una solicitud, comentario o un tema que te gustaría ver cubierto?
+¿Tienes una petición, comentarios o un tema que quieras que cubramos?
 
-Contáctame: [rebelrxgroup@pm.me](mailto:rebelrxgroup@pm.me)
+Escríbenos: [rebelrxgroup@pm.me](mailto:rebelrxgroup@pm.me)
 
 ---
 
-## 🔒 Privacidad del Sitio
+## 🔒 Privacidad de este sitio
 
-RebelRx Docs **no** utiliza cookies de seguimiento, analíticas ni scripts de terceros.
+RebelRx Docs **no** usa cookies de rastreo, analíticas ni scripts de seguimiento de terceros.
 
-No se recopilan datos personales.
+No se recopila ningún dato personal.
 
-> Sin seguimiento. Sin vigilancia. Sin recolección de datos.
+> Sin rastreo. Sin vigilancia. Sin cosecha de datos.

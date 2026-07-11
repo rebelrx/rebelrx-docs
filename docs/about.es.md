@@ -1,53 +1,58 @@
+---
+description: >-
+  Quién está detrás de RebelRx Docs — un Doctor en Farmacia y entusiasta autodidacta de Linux y el autoalojamiento que documenta el camino hacia la soberanía digital y física.
+---
+
 <!--
 Source: about.md
-Last translated: 2026-04
+Last translated: 2026-07
 -->
 
 # 📚 Acerca de
 
-RebelRx Docs es un sitio público de documentación enfocado en construir sistemas soberanos, proteger la privacidad y mejorar la salud a largo plazo mediante guías prácticas del mundo real.
+RebelRx Docs es un sitio público de documentación centrado en construir sistemas soberanos, proteger la privacidad y mejorar la salud a largo plazo mediante orientación práctica del mundo real.
 
 Este no es un centro de documentación genérico.
 
-Es un cuerpo de trabajo curado construido alrededor de una idea central:
+Es un cuerpo de trabajo curado, construido en torno a una idea central:
 
-> Debes entender y controlar los sistemas que impactan tu vida.
+> Deberías entender y controlar los sistemas que impactan tu vida.
 
 ---
 
-## ⚠️ Filosofía Fundamental
+## ⚠️ Filosofía central
 
-RebelRx se basa en tres principios:
+RebelRx se construye sobre tres principios:
 
-- **Control sobre la conveniencia**  
-- **Claridad sobre la complejidad**  
-- **Pensamiento a largo plazo sobre la optimización a corto plazo**  
+- **Control por encima de la comodidad**  
+- **Claridad por encima de la complejidad**  
+- **Pensamiento a largo plazo por encima de la optimización a corto plazo**  
 
-En tecnología y salud, los sistemas modernos cada vez más:
+Tanto en la tecnología como en la salud, los sistemas modernos, cada vez más:
 
 - Centralizan el control  
-- Ocultan el entendimiento  
+- Abstraen la comprensión  
 - Priorizan la escala sobre los resultados individuales  
 
-RebelRx adopta el enfoque opuesto.
+RebelRx toma el enfoque opuesto.
 
 ---
 
-## 🧭 Qué Proporciona Este Sitio
+## 🧭 Qué ofrece este sitio
 
-RebelRx Docs ofrece:
+RebelRx Docs proporciona:
 
 - Guías técnicas paso a paso para construir infraestructura privada  
-- Configuraciones probadas basadas en uso real  
+- Configuraciones probadas, basadas en el uso real  
 - Recomendaciones claras (no opciones interminables)  
-- Documentación de lo que funciona — y lo que se debe evitar  
+- Documentación de lo que funciona — y de lo que hay que evitar  
 
 !!! tip
-    Estas guías priorizan sistemas que puedes **entender, mantener y en los que puedes confiar**.
+    Estas guías priorizan sistemas que puedas **entender, mantener y en los que puedas confiar**.
 
 ---
 
-## 🧱 Temas Cubiertos
+## 🧱 Temas cubiertos
 
 ### 🐧 Linux
 
@@ -62,54 +67,54 @@ RebelRx Docs ofrece:
 
 - Infraestructura basada en Docker Compose  
 - Proxies inversos y acceso seguro  
-- Almacenamiento, integración con NAS y copias de seguridad  
+- Almacenamiento, integración de NAS y respaldos  
 - Arquitectura de servicios y estándares operativos  
 
 ---
 
 ### 🔐 Privacidad
 
-- Migración fuera de plataformas basadas en vigilancia  
-- Comparación de herramientas y compromisos  
+- Migración desde plataformas basadas en la vigilancia  
+- Comparativas de herramientas y sus compromisos  
 - Estrategias prácticas para recuperar el control  
 
 ---
 
 ### 🧬 Salud
 
-- Contenido educativo basado en evidencia  
-- Enfoque en la causa raíz  
+- Contenido educativo con base en la evidencia  
+- Pensamiento centrado en las causas raíz  
 - Herramientas y recursos para tomar mejores decisiones  
 
 ---
 
-## 👤 Sobre el Autor
+## 👤 Sobre el autor
 
-RebelRx Docs es creado y mantenido por:
+RebelRx Docs está creado y mantenido por un:
 
-- **Doctor en Farmacia (PharmD) y Farmacéutico Registrado (RPh)**  
+- **Doctor en Farmacia (PharmD) y Farmacéutico Colegiado (RPh)**  
 - Profesional con años de experiencia en la industria farmacéutica  
-- Practicante autodidacta de Linux y self-hosting  
+- Practicante autodidacta de Linux y el autoalojamiento  
 
-Esta combinación proporciona una perspectiva única en:
+Esta combinación aporta una perspectiva única que abarca:
 
-- Medicina clínica  
-- Pensamiento sistémico  
-- Tecnología e infraestructura  
-
----
-
-## ⚠️ Nota Importante sobre el Contenido de Salud
-
-El contenido relacionado con la salud en este sitio se proporciona únicamente con fines **educativos**.
-
-No constituye **asesoramiento médico** y no debe reemplazar la consulta con un profesional de la salud calificado.
+- La medicina clínica  
+- El pensamiento sistémico  
+- La tecnología y la infraestructura  
 
 ---
 
-## 🧠 Reflexión Final
+## ⚠️ Nota importante sobre el contenido de salud
 
-La mayoría de las personas delegan el entendimiento a sistemas que no controlan.
+El contenido relacionado con la salud de este sitio se ofrece **únicamente con fines educativos**.
+
+**No es consejo médico** y no debe sustituir la consulta con un profesional sanitario cualificado.
+
+---
+
+## 🧠 Reflexión final
+
+La mayoría de la gente delega la comprensión en sistemas que no controla.
 
 RebelRx existe para ayudarte a:
 
@@ -117,10 +122,10 @@ RebelRx existe para ayudarte a:
 
 ---
 
-## 🔒 Privacidad del Sitio
+## 🔒 Privacidad de este sitio
 
-RebelRx Docs **no** utiliza cookies de seguimiento, analíticas ni scripts de terceros.
+RebelRx Docs **no** usa cookies de rastreo, analíticas ni scripts de seguimiento de terceros.
 
-No se recopilan datos personales.
+No se recopila ningún dato personal.
 
-> Sin seguimiento. Sin vigilancia. Sin recolección de datos.
+> Sin rastreo. Sin vigilancia. Sin cosecha de datos.
