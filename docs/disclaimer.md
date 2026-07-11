@@ -52,7 +52,7 @@ Use of this site does **not** create:
 
 ---
 
-## 🧪 Evidence & Opinions
+## 🧪 Evidence and Opinions
 
 Some content may include:
 
@@ -95,7 +95,7 @@ Use of this site is at your own risk.
 
 ---
 
-## 💸 Affiliate & Referral Disclosure {#affiliate-referral-disclosure}
+## 💸 Affiliate and Referral Disclosure {#affiliate-referral-disclosure}
 
 Some links on this site are referral or affiliate links, including the RebelRx Holistic Dispensary (Fullscript).
 
@@ -148,4 +148,4 @@ For questions about this Disclaimer:
 - Don’t make medical decisions based on this alone  
 - You are responsible for your systems and health decisions  
 
-> Use the information wisely — but verify and consult professionals when needed.
+> Use the information wisely, but verify and consult professionals when needed.

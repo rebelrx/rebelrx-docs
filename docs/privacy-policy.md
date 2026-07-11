@@ -48,7 +48,7 @@ Like all websites, the web server that delivers this site processes basic techni
 - Device type  
 - Request timestamps  
 
-This site is self-hosted on RebelRx infrastructure. Standard server access logs containing this data:
+This site is self-hosted on RebelRx infrastructure using MkDocs. Standard server access logs containing this data:
 
 - Are used **only for site operations, troubleshooting, and abuse prevention**  
 - Are not used for tracking, profiling, or analytics  
@@ -69,6 +69,7 @@ If any cookies are present, they are:
 
 - Strictly necessary for basic site functionality  
 - Set by your browser or hosting layer (not by RebelRx)
+- Inherent in MkDocs
 
 ### 💾 Local Storage
 
@@ -138,4 +139,4 @@ For questions about this Privacy Policy:
 - No analytics  
 - No personal data collection  
 
-> Use the site freely — nothing is being recorded about you.
+> Use the site freely or even self-host it for your personal use. Nothing is being recorded about you.
